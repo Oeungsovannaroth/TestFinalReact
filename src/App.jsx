@@ -1,11 +1,27 @@
 import React from "react";
+import NavBar from "./components/NavBar";
+import { Route, Routes } from "react-router-dom";
+import Home from "./page/Home";
+import About from "./page/About";
+import Contact from "./page/Contact";
 
 const App = () => {
   return (
-    <div>
-      <h1>Hosting hello world</h1>
-      <h2>Hello ah jm</h2>
-    </div>
+    <>
+      <nav>
+        <NavBar />
+      </nav>
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/about" element={<About />}></Route>
+          <Route path="/Contact" element={<Contact />}></Route>
+        </Routes>
+      </main>
+      <footer>
+        <footer />
+      </footer>
+    </>
   );
 };
 
