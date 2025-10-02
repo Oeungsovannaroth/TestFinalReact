@@ -31,13 +31,50 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="/service" className="hover:underline hover:font-bold">
+                  <a
+                    href="/service"
+                    className="hover:underline hover:font-bold"
+                  >
                     Services
                   </a>
                 </li>
                 <li>
-                  <a href="/contact" className="hover:underline hover:font-bold">
+                  <a
+                    href="/contact"
+                    className="hover:underline hover:font-bold"
+                  >
                     Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-2xl font-semibold mb-3">Service</h3>
+              <ul className="space-y-2 text-xl text-shadow-white ">
+                <li>
+                  <a href="/" className="hover:underline hover:font-bold ">
+                    Dog Walking
+                  </a>
+                </li>
+                <li>
+                  <a href="/about" className="hover:underline hover:font-bold">
+                    Vacation Dog Sitting
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/service"
+                    className="hover:underline hover:font-bold"
+                  >
+                   Private dog Training
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/contact"
+                    className="hover:underline hover:font-bold"
+                  >
+                    Specialized Care
                   </a>
                 </li>
               </ul>

@@ -7,19 +7,21 @@ import Contact from "./page/Contact";
 import Footer from "./components/Footer";
 import Service from "./page/Service";
 
+import GetPrice from "./page/GetPrice";
 
 const App = () => {
   return (
     <>
       <nav>
-       <NavBar/>
+        <NavBar />
       </nav>
       <main>
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
-         <Route path="/service" element={<Service/>}></Route>
+          <Route path="/service" element={<Service />}></Route>
+          <Route path="/" element={<GetPrice />} />
         </Routes>
       </main>
       <footer>

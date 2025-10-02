@@ -47,15 +47,28 @@ const NavBar = () => {
                 asChild
                 className="hover:text-purple-500 hover:font-bold"
               >
-                <Link to="/service">Services</Link>
+                <Link to="/service">  
+                  {/* <form className="max-w-sm mx-auto">
+                    <select
+                      id="countries"
+                      className="t text-blue-900 text-2xl rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400  dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    >
+                      <option selected>Choose a country</option>
+                      <option value="US">United States</option>
+                      <option value="CA">Canada</option>
+                      <option value="FR">France</option>
+                      <option value="DE">Germany</option>
+                    </select>
+                  </form> */}Service
+                </Link>
               </NavigationMenuLink>
             </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
         <div className=" px-7 gap-8 py-9 space-x-4 font-semibold text-blue-400 ">
           <button type="button" className="hover:text-purple-500">
-            {" "}
-            Login
+            {""}
+            <a href="/src/components/ui/card.jsx">Login</a>
           </button>
           <button type="button" className="hover:text-purple-500">
             Register
