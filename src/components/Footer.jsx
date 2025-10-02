@@ -9,13 +9,12 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
             {/* Brand Section */}
             <div>
-              <h2 className="text-2xl font-bold mb-3">🌟 YUYU Pet Care</h2>
+              <h2 className="text-2xl font-bold mb-3">🌟 Puppy Land</h2>
               <p className="text-xl mt-6 opacity-90">
                 Every tail wag and purr matters — thank you for being part of
-                the YUYU family!
+                the Puppy Land!
               </p>
             </div>
-
             {/* Quick Links */}
             <div>
               <h3 className="text-2xl font-semibold mb-3">Quick Links</h3>
@@ -66,7 +65,7 @@ const Footer = () => {
                     href="/service"
                     className="hover:underline hover:font-bold"
                   >
-                   Private dog Training
+                    Private dog Training
                   </a>
                 </li>
                 <li>

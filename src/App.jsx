@@ -1,19 +1,18 @@
 import React from "react";
-import NavBar from "./components/NavBar";
+
 import { Route, Routes } from "react-router-dom";
 import Home from "./page/Home";
 import About from "./page/About";
 import Contact from "./page/Contact";
 import Footer from "./components/Footer";
 import Service from "./page/Service";
-
-import GetPrice from "./page/GetPrice";
+import Navbar1 from "./components/Navbar1";
 
 const App = () => {
   return (
     <>
       <nav>
-        <NavBar />
+        <Navbar1 />
       </nav>
       <main>
         <Routes>
@@ -21,7 +20,6 @@ const App = () => {
           <Route path="/about" element={<About />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/service" element={<Service />}></Route>
-          <Route path="/" element={<GetPrice />} />
         </Routes>
       </main>
       <footer>
