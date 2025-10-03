@@ -14,8 +14,11 @@ const Home = () => {
         </div>
 
         <div className="relative z-10 flex flex-col justify-center items-start h-full text-left ml-15">
-          <h1 className="text-5xl font-bold leading-tight mb-4">
-            Welcome to Puppy Land
+          <h1 className="text-5xl font-bold leading-tight mb-4 ">
+            Welcome to Puppy Land 🐶✨
+          </h1>
+          <h1 className="text-3xl font-bold leading-tight mb-4 ml-20 ">
+            Where every tail wags with joy
           </h1>
           <p className="text-lg text-gray-300 mb-8 w-200">
             is a warm and friendly greeting that creates an inviting atmosphere

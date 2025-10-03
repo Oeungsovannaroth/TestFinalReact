@@ -4,13 +4,13 @@ import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
 const Footer = () => {
   return (
     <div>
-      <footer className="bg-purple-400 text-white py-10 mt-10">
+      <footer className="bg-purple-400 text-white py-5 mt-10">
         <div className="container mx-auto px-6 md:px-12 lg:px-20">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
             {/* Brand Section */}
             <div>
               <h2 className="text-2xl font-bold mb-3">🌟 Puppy Land</h2>
-              <p className="text-xl mt-6 opacity-90">
+              <p className="text-xl mt-6 opacity-70">
                 Every tail wag and purr matters — thank you for being part of
                 the Puppy Land!
               </p>
@@ -45,19 +45,33 @@ const Footer = () => {
                     Contact
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="/product"
+                    className="hover:underline hover:font-bold"
+                  >
+                    Product
+                  </a>
+                </li>
               </ul>
             </div>
             <div>
               <h3 className="text-2xl font-semibold mb-3">Service</h3>
               <ul className="space-y-2 text-xl text-shadow-white ">
                 <li>
-                  <a href="/" className="hover:underline hover:font-bold ">
-                    Dog Walking
+                  <a
+                    href="/GetPrice"
+                    className="hover:underline hover:font-bold "
+                  >
+                    GetPrice
                   </a>
                 </li>
                 <li>
-                  <a href="/about" className="hover:underline hover:font-bold">
-                    Vacation Dog Sitting
+                  <a
+                    href="/Payment"
+                    className="hover:underline hover:font-bold"
+                  >
+                    Payment
                   </a>
                 </li>
                 <li>
@@ -65,15 +79,15 @@ const Footer = () => {
                     href="/service"
                     className="hover:underline hover:font-bold"
                   >
-                    Private dog Training
+                    Training
                   </a>
                 </li>
                 <li>
                   <a
-                    href="/contact"
+                    href="/product"
                     className="hover:underline hover:font-bold"
                   >
-                    Specialized Care
+                    Shop
                   </a>
                 </li>
               </ul>
@@ -113,7 +127,7 @@ const Footer = () => {
 
           {/* Bottom Bar */}
           <div className="mt-10 border-t border-white/30 pt-6 text-center text-sm">
-            © {new Date().getFullYear()} YUYU Pet Care. All rights reserved.
+            © {new Date().getFullYear()} Puppy Land. All rights reserved.
           </div>
         </div>
       </footer>

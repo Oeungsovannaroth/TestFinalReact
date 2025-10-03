@@ -1,8 +1,20 @@
+import AddtoCard from "@/components/AddtoCard";
 import React from "react";
+import { Link, Links } from "react-router-dom";
 
 const Product = () => {
+  // const [showCart, setShowCart] = useState(false);
+
+  // const handAddtoCard = () => {
+  //   setShowCart(true);
+  // };
   return (
     <div>
+      {" "}
+      {/* <div className="min-h-screen bg-gray-100 p-10 flex flex-col items-center space-y-10">
+        <Product AddtoCard={handAddtoCard} />
+        {showCart && <AddtoCard />}
+      </div> */}
       <div className="justify-center text-center mt-10 bg-white py-2.5">
         <h1 className="text-3xl font-semibold ">— Puppy Couture —</h1>
         <h1 className="text-7xl font-bold text-pink-600">Shop Puppy</h1>
@@ -60,7 +72,10 @@ const Product = () => {
                 Puppy/Junior (Adult weight between 1 kg to 10 kg) up to10 months
               </p>
               <h2 className="font-semibold mb-5">$29.99</h2>
-              <button className="p-2 px-6 bg-purple-500 text-white rounded-md hover:bg-purple-600">
+              <button
+                onClick={AddtoCard}
+                className="p-2 px-6 bg-purple-500 text-white rounded-md hover:bg-purple-600"
+              >
                 Add To Cart
               </button>
             </section>

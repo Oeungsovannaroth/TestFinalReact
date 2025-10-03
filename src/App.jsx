@@ -1,5 +1,3 @@
-import React from "react";
-
 import { Route, Routes } from "react-router-dom";
 import Home from "./page/Home";
 import About from "./page/About";
@@ -10,6 +8,8 @@ import Navbar1 from "./components/Navbar1";
 import GetPrice from "./page/GetPrice";
 import Product from "./page/Product";
 import Payment from "./components/Payment";
+import AddtoCard from "./components/AddtoCard";
+
 const App = () => {
   return (
     <>

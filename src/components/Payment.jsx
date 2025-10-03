@@ -54,7 +54,7 @@ const Payment = () => {
                 type="submit"
                 className="w-full mt-4 bg-indigo-600 hover:bg-indigo-700 text-white text-lg py-3 rounded-lg transition"
               >
-                Pay $49.99
+                Pay 
               </button>
             </form>
           </div>
@@ -102,7 +102,7 @@ const Payment = () => {
               <h4 className="text-gray-700 font-semibold mb-2">Order Summary</h4>
               <div className="flex justify-between text-gray-600">
                 <span>Subscription Plan</span>
-                <span>$49.99</span>
+              
               </div>
               <div className="flex justify-between text-gray-600 mt-1">
                 <span>Tax</span>
@@ -110,7 +110,7 @@ const Payment = () => {
               </div>
               <div className="flex justify-between text-lg font-bold text-gray-800 mt-4">
                 <span>Total</span>
-                <span>$49.99</span>
+               
               </div>
             </div>
           </div>

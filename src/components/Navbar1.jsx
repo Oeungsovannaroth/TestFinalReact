@@ -6,12 +6,13 @@ import {
   NavigationMenuList,
 } from "@radix-ui/react-navigation-menu";
 import { Link, Links } from "react-router-dom";
+
+// import { useState } from "react";
 const Navbar1 = () => {
   return (
     <div>
       <nav className="flex flex-wrap items-center justify-between p-3 bg-[#e8e8e5]">
-        <div className="text-xl">Puppy Land</div>
-
+        <div className=" text-5xl">Puppy Land</div>
         <NavigationMenu>
           <NavigationMenuList>
             <NavigationMenuItem>
@@ -31,7 +32,7 @@ const Navbar1 = () => {
                   />
                 </button>
               </div>
-              <div className=" toggle hidden w-full md:w-auto md:flex text-right text-bold mt-5 md:mt-0 md:border-none">
+              <div className=" toggle hidden w-full md:w-auto md:flex text-right text-bold mt-5 md:mt-0 md:border-none text-2xl capacity-60">
                 <NavigationMenuLink>
                   <a
                     href="/"
