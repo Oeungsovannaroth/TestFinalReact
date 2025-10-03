@@ -19,10 +19,10 @@ const Product = () => {
         <h1 className="text-3xl font-semibold ">— Puppy Couture —</h1>
         <h1 className="text-7xl font-bold text-pink-600">Shop Puppy</h1>
       </div>
-      <div className="bg-[#e8e8e5] mt-10 px-20">
-        <section className="container mx-auto p-10 md:py-12 px-0 md:p-8 md:px-0  ">
-          <section className="p-5 md:p-0 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-10 items-start ">
-            <section className="p-5 py-10 bg-purple-50 text-center transform duration-500 hover:-translate-y-2 cursor-pointer rounded-2xl">
+      <div className="bg-[#e8e8e5] mt-10 px-20 grid grid-cols-1">
+        <section className="grid grid-cols-1 container mx-auto p-10 md:py-12 px-0 md:p-8 md:px-0  ">
+          <section className=" p-5 md:p-0 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-10 items-start ">
+            <section className=" grid grid-cols-1 p-5 py-10 bg-purple-50 text-center transform duration-500 hover:-translate-y-2 cursor-pointer rounded-2xl">
               <img
                 src="https://petsy.online/cdn/shop/products/2_e17adbe2-3e2e-498b-b178-6b45256cd078.png?v=1717585062"
                 className="rounded-2xl"
@@ -80,7 +80,7 @@ const Product = () => {
               </button>
             </section>
 
-            <section className="p-5 py-10 bg-green-50 text-center transform duration-500 hover:-translate-y-2 cursor-pointer rounded-2xl">
+            <section className=" grid grid-cols-1 p-5 py-10 bg-green-50 text-center transform duration-500 hover:-translate-y-2 cursor-pointer rounded-2xl">
               <img
                 src="https://omni.pet/cdn/shop/files/Puppy-Dry-Food_Bowl-Dog.png?v=1755794114"
                 className="rounded-2xl"
@@ -134,7 +134,7 @@ const Product = () => {
               </button>
             </section>
 
-            <section className="p-5 py-10 bg-red-50 text-center transform duration-500 hover:-translate-y-2 cursor-pointer rounded-2xl">
+            <section className=" grid grid-cols-1 p-5 py-10 bg-red-50 text-center transform duration-500 hover:-translate-y-2 cursor-pointer rounded-2xl">
               <img
                 src="https://www.all4pets.com.au/cdn/shop/files/Hypro-Premium-Wholesome-Grains-Chicken-_-Brown-Rice-Puppy-Dry-Dog-Food-2a.jpg?v=1686491832"
                 className="rounded-2xl"
@@ -185,7 +185,7 @@ const Product = () => {
               </button>
             </section>
 
-            <section className="p-5 py-10 bg-blue-50 text-center transform duration-500 hover:-translate-y-2 cursor-pointer rounded-2xl">
+            <section className="grid grid-cols-1 p-5 py-10 bg-blue-50 text-center transform duration-500 hover:-translate-y-2 cursor-pointer rounded-2xl">
               <img
                 src="https://krisers.com/cdn/shop/files/48907_PT1._AC_SL1200_V1690571443_1200x.jpg?v=1697206480"
                 className="rounded-2xl"
@@ -241,7 +241,7 @@ const Product = () => {
                 Add To Cart
               </button>
             </section>
-            <section className="p-5 py-10 bg-pink-50 text-center transform duration-500 hover:-translate-y-2 cursor-pointer rounded-2xl">
+            <section className=" grid grid-cols-1 p-5 py-10 bg-pink-50 text-center transform duration-500 hover:-translate-y-2 cursor-pointer rounded-2xl">
               <img
                 src="https://www.sheba.com/cdn-cgi/image/width=600,height=600,f=auto,quality=90/sites/g/files/fnmzdf1826/files/migrate-product-files/images/e0m7hvhpfsfckfhkzkfo.png"
                 className="rounded-4xl"
@@ -295,7 +295,7 @@ const Product = () => {
                 Add To Cart
               </button>
             </section>
-            <section className="p-5 py-10 bg-blue-50 text-center transform duration-500 hover:-translate-y-2 cursor-pointer rounded-2xl">
+            <section className=" grid grid-cols-1 p-5 py-10 bg-blue-50 text-center transform duration-500 hover:-translate-y-2 cursor-pointer rounded-2xl">
               <img
                 src="https://kookykibble.co.nz/cdn/shop/files/Kooky_Kibble_Grain-free_Dry_Cat_Food_Cat_Food_and_Treats_Bundle.png?v=1754624096idth=1946"
                 className="rounded-2xl"
