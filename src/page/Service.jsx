@@ -1,5 +1,5 @@
-import React from 'react'
-
+import React from "react";
+import { Link, Links } from "react-router-dom";
 const Service = () => {
   return (
     <div>
@@ -9,23 +9,25 @@ const Service = () => {
           <li className="flex mx-1 ">
             <a
               className="p-2 px-3 border-purple-800 mb-4 rounded font-medium hover:bg-transparent hover:border-purple-800 border bg-purple-400/25 text-purple-800"
-              href="category/all"
+              href="#"
             >
               Dog Walking
             </a>
+            <link to="/DogWalking"></link>
           </li>
           <li className="flex mx-1">
             <a
               className="p-2 px-3 border-purple-800 mb-4 rounded font-medium hover:bg-transparent hover:border-purple-800 border bg-purple-400/25 text-purple-800"
-              href="category/react-js"
+              href="#"
             >
               Puppy Breaks
+               <link to="/Puppy-Breaks"></link>
             </a>
           </li>
           <li className="flex mx-1">
             <a
               className="p-2 px-3 border-purple-800 mb-4 rounded font-medium hover:bg-transparent hover:border-purple-800 border bg-purple-400/25 text-purple-800"
-              href="category/redux"
+              href="#"
             >
               Vacation Dog Sitting
             </a>
@@ -33,7 +35,7 @@ const Service = () => {
           <li className="flex mx-1">
             <a
               className="p-2 px-3 border-purple-800 mb-4 rounded font-medium hover:bg-transparent hover:border-purple-800 border bg-purple-400/25 text-purple-800"
-              href="category/ui-design"
+              href="#"
             >
               Vacation Cat Sitting
             </a>
@@ -41,7 +43,7 @@ const Service = () => {
           <li className="flex mx-1">
             <a
               className="p-2 px-3 border-purple-800 mb-4 rounded font-medium hover:bg-transparent hover:border-purple-800 border bg-purple-400/25 text-purple-800"
-              href="category/user-experience"
+              href="#"
             >
               Critter Sitting
             </a>
@@ -49,7 +51,7 @@ const Service = () => {
           <li className="flex mx-1">
             <a
               className="p-2 px-3 border-purple-800 mb-4 rounded font-medium hover:bg-transparent hover:border-purple-800 border bg-purple-400/25 text-purple-800"
-              href="category/productivity"
+              href="#"
             >
               Specialized Care
             </a>
@@ -57,7 +59,7 @@ const Service = () => {
           <li className="flex mx-1">
             <a
               className="p-2 px-3 border-purple-800 mb-4 rounded font-medium hover:bg-transparent hover:border-purple-800 border bg-purple-400/25 text-purple-800"
-              href="category/gamme"
+              href="#"
             >
               Vacation Cat Sitting
             </a>
@@ -141,7 +143,8 @@ const Service = () => {
                     href="#"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-600 md:py-4 md:text-lg md:px-10"
                   >
-                    Get Pricing
+                    <a href="/GetPrice">Getprice</a>
+                    {/* <link to="/GetPrice">Contact US For Get Pricing</link> */}
                   </a>
                 </div>
               </div>
@@ -179,7 +182,7 @@ const Service = () => {
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
-                    href="#"
+                    href="/GetPrice"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-600 md:py-4 md:text-lg md:px-10"
                   >
                     Contact US For Get Pricing
@@ -220,7 +223,7 @@ const Service = () => {
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
-                    href="#"
+                    href="/GetPrice"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-600 md:py-4 md:text-lg md:px-10"
                   >
                     Get Pricing
@@ -261,7 +264,7 @@ const Service = () => {
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
-                    href="#"
+                    href="/GetPrice"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-600 md:py-4 md:text-lg md:px-10"
                   >
                     Get Pricing
@@ -305,7 +308,7 @@ const Service = () => {
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
-                    href="#"
+                    href="/GetPrice"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-600 md:py-4 md:text-lg md:px-10"
                   >
                     Get Pricing
@@ -348,7 +351,7 @@ const Service = () => {
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
-                    href="#"
+                    href="/GetPrice"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-600 md:py-4 md:text-lg md:px-10"
                   >
                     Get Pricing
@@ -392,7 +395,7 @@ const Service = () => {
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
-                    href="#"
+                    href="/GetPrice"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-600 md:py-4 md:text-lg md:px-10"
                   >
                     Get Pricing
@@ -412,7 +415,7 @@ const Service = () => {
         </section>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Service
+export default Service;
