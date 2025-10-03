@@ -39,8 +39,8 @@ const GetPrice = () => {
                   </span>
                 </li>
               </ul>
-              <button className="text-white bg-violet-700 hover:bg-blue-700 focus:ring-4 focus:outline-none rounded-lg px-4 py-2 font-medium w-full">
-                Get Now
+              <button className="text-white border-none bg-violet-700 hover:bg-blue-700 focus:ring-4 focus:outline-none rounded-lg px-4 py-2 font-medium w-full">
+                <a href="/payment">Get Now</a>
               </button>
             </div>
 
@@ -67,7 +67,7 @@ const GetPrice = () => {
                 </li>
               </ul>
               <button className="text-white bg-violet-700 hover:bg-blue-700 focus:ring-4 focus:outline-none rounded-lg px-4 py-2 font-medium w-full">
-                Get Now
+                <a href="/payment">Get Now</a>
               </button>
             </div>
 
@@ -94,13 +94,13 @@ const GetPrice = () => {
                 </li>
               </ul>
               <button className="text-white bg-violet-700 hover:bg-blue-700 focus:ring-4 focus:outline-none rounded-lg px-4 py-2 font-medium w-full">
-                Get Now
+                <a href="/payment">Get Now</a>
               </button>
             </div>
           </div>
         </div>
       </div>
-      <div class="space-y-5 px-8 py-12 bg-fuchsia-800">
+      <div className="space-y-5 px-8 py-12 bg-fuchsia-800">
         <div className="text-white text-center mb-10 ">
           <h1 className="text-6xl font-bold mb-10">
             Vacation Dog & Cat Sitting
@@ -114,45 +114,45 @@ const GetPrice = () => {
             clients favorite combinations.
           </p>
         </div>
-        <div class="container flex space-x-2 text-white">
-          <div class="no-scrollbar overflow-hidden">
-            <div class="flex no-scrollbar justify-start space-x-6 items-center overflow-x-auto">
-              <button class="font-semibold whitespace-nowrap text-base text-white hover:text-gray-600 transition-colors duration-300">
+        <div className="container flex space-x-2 text-white">
+          <div className="no-scrollbar overflow-hidden">
+            <div className="flex no-scrollbar justify-start space-x-6 items-center overflow-x-auto">
+              <button className="font-semibold whitespace-nowrap text-base text-white hover:text-gray-600 transition-colors duration-300">
                 Monthly
               </button>
-              <button class="font-semibold whitespace-nowrap text-base hover:text-gray-600 transition-colors duration-300 text-white">
+              <button className="font-semibold whitespace-nowrap text-base hover:text-gray-600 transition-colors duration-300 text-white">
                 Annually
               </button>
             </div>
           </div>
-          <button class="text-purple-100 font-semibold text-base">
+          <button className="text-purple-100 font-semibold text-base">
             (2 months free)
           </button>
         </div>
-        <div class="demo-container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-          <div class="rounded-[30px] md:rounded-[36px] bg-[#FAFAFA] overflow-hidden border-[1px] border-gray-200 p-8 relative">
-            <div class="h-full">
-              <div class="h-full z-10 relative">
-                <div class="flex flex-col flex-1 justify-between h-full space-y-5">
-                  <div class="flex justify-between flex-col">
-                    <div class="text-xl md:text-2xl font-bold text-gray-900 flex justify-between">
+        <div className="demo-container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          <div className="rounded-[30px] md:rounded-[36px] bg-[#FAFAFA] overflow-hidden border-[1px] border-gray-200 p-8 relative">
+            <div className="h-full">
+              <div className="h-full z-10 relative">
+                <div className="flex flex-col flex-1 justify-between h-full space-y-5">
+                  <div className="flex justify-between flex-col">
+                    <div className="text-xl md:text-2xl font-bold text-gray-900 flex justify-between">
                       <span>Starter</span>
                     </div>
-                    <div class="pt-5 text-gray-500 font-medium text-base space-y-1">
-                      <div class="flex items-center align-bottom">
-                        <span class="pt-1.5">$</span>
-                        <div class="ml-1 mr-2 text-2xl md:text-3xl font-bold text-gray-900">
+                    <div className="pt-5 text-gray-500 font-medium text-base space-y-1">
+                      <div className="flex items-center align-bottom">
+                        <span className="pt-1.5">$</span>
+                        <div className="ml-1 mr-2 text-2xl md:text-3xl font-bold text-gray-900">
                           <span>10</span>
                         </div>
-                        <span class="pt-1.5">per month</span>
+                        <span className="pt-1.5">per month</span>
                       </div>
-                      <div class="text-base">Essential Pooch</div>
+                      <div className="text-base">Essential Pooch</div>
                     </div>
-                    <div class="">
-                      <ul class="space-y-2 pt-8">
-                        <li class="flex items-center font-medium space-x-2 text-black">
+                    <div className="">
+                      <ul className="space-y-2 pt-8">
+                        <li className="flex items-center font-medium space-x-2 text-black">
                           <svg
-                            class="h-4 w-4"
+                            className="h-4 w-4"
                             viewBox="0 0 24 24"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
@@ -167,9 +167,9 @@ const GetPrice = () => {
                           </svg>
                           <span>Everything in Free</span>
                         </li>
-                        <li class="flex items-center font-medium space-x-2 text-black">
+                        <li className="flex items-center font-medium space-x-2 text-black">
                           <svg
-                            class="h-4 w-4"
+                            className="h-4 w-4"
                             viewBox="0 0 24 24"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
@@ -184,9 +184,9 @@ const GetPrice = () => {
                           </svg>
                           <span>5,000 events / month</span>
                         </li>
-                        <li class="flex items-center font-medium space-x-2 text-black">
+                        <li className="flex items-center font-medium space-x-2 text-black">
                           <svg
-                            class="h-4 w-4"
+                            className="h-4 w-4"
                             viewBox="0 0 24 24"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
@@ -201,9 +201,9 @@ const GetPrice = () => {
                           </svg>
                           <span>3 Essential Visits for breakfast</span>
                         </li>
-                        <li class="flex items-center font-medium space-x-2 text-black">
+                        <li className="flex items-center font-medium space-x-2 text-black">
                           <svg
-                            class="h-4 w-4"
+                            className="h-4 w-4"
                             viewBox="0 0 24 24"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
@@ -221,18 +221,18 @@ const GetPrice = () => {
                       </ul>
                     </div>
                   </div>
-                  <div class="pt-2">
+                  <div className="pt-2">
                     <a
-                      href="#"
+                      href="/payment"
                       type="button"
                       target="_blank"
-                      class="appearance-none inline-flex hover:shadow-2xl transition-all duration-300 hover:scale-105 items-center group space-x-2.5 bg-black text-white py-4 px-5 rounded-2xl cursor-pointer"
+                      className="appearance-none inline-flex hover:shadow-2xl transition-all duration-300 hover:scale-105 items-center group space-x-2.5 bg-black text-white py-4 px-5 rounded-2xl cursor-pointer"
                     >
-                      <span class="w-full font-semibold text-base">
+                      <span className="w-full font-semibold text-base">
                         Essential Pooch+
                       </span>
                       <svg
-                        class="inline-block h-6"
+                        className="inline-block h-6"
                         viewBox="0 0 24 25"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
@@ -248,11 +248,11 @@ const GetPrice = () => {
                     </a>
                   </div>
                 </div>
-                <div class="hidden">
-                  <ul class="space-y-2 pt-8">
-                    <li class="flex items-center font-medium space-x-2 text-black">
+                <div className="hidden">
+                  <ul className="space-y-2 pt-8">
+                    <li className="flex items-center font-medium space-x-2 text-black">
                       <svg
-                        class="h-4 w-4"
+                        className="h-4 w-4"
                         viewBox="0 0 24 24"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
@@ -267,9 +267,9 @@ const GetPrice = () => {
                       </svg>
                       <span>Everything in Free</span>
                     </li>
-                    <li class="flex items-center font-medium space-x-2 text-black">
+                    <li className="flex items-center font-medium space-x-2 text-black">
                       <svg
-                        class="h-4 w-4"
+                        className="h-4 w-4"
                         viewBox="0 0 24 24"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
@@ -284,9 +284,9 @@ const GetPrice = () => {
                       </svg>
                       <span>5,000 events / month</span>
                     </li>
-                    <li class="flex items-center font-medium space-x-2 text-black">
+                    <li className="flex items-center font-medium space-x-2 text-black">
                       <svg
-                        class="h-4 w-4"
+                        className="h-4 w-4"
                         viewBox="0 0 24 24"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
@@ -306,15 +306,15 @@ const GetPrice = () => {
               </div>
             </div>
           </div>
-          <div class="rounded-[30px] md:rounded-[36px] bg-[#FAFAFA] overflow-hidden border-[1px] border-gray-200 p-8 relative">
-            <div class="h-full">
-              <div class="h-full z-10 relative">
-                <div class="flex flex-col flex-1 justify-between h-full space-y-5">
-                  <div class="flex justify-between flex-col">
-                    <div class="text-xl md:text-2xl font-bold text-gray-900 flex justify-between">
+          <div className="rounded-[30px] md:rounded-[36px] bg-[#FAFAFA] overflow-hidden border-[1px] border-gray-200 p-8 relative">
+            <div className="h-full">
+              <div className="h-full z-10 relative">
+                <div className="flex flex-col flex-1 justify-between h-full space-y-5">
+                  <div className="flex justify-between flex-col">
+                    <div className="text-xl md:text-2xl font-bold text-gray-900 flex justify-between">
                       <span>Startup</span>
                       <svg
-                        class="h-6 w-6 animate-ping-slow text-gray-500"
+                        className="h-6 w-6 animate-ping-slow text-gray-500"
                         viewBox="0 0 50 50"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
@@ -345,21 +345,21 @@ const GetPrice = () => {
                         ></path>
                       </svg>
                     </div>
-                    <div class="pt-5 text-gray-500 font-medium text-base space-y-1">
-                      <div class="flex items-center align-bottom">
-                        <span class="pt-1.5">$</span>
-                        <div class="ml-1 mr-2 text-2xl md:text-3xl font-bold text-gray-900">
+                    <div className="pt-5 text-gray-500 font-medium text-base space-y-1">
+                      <div className="flex items-center align-bottom">
+                        <span className="pt-1.5">$</span>
+                        <div className="ml-1 mr-2 text-2xl md:text-3xl font-bold text-gray-900">
                           <span>16</span>
                         </div>
-                        <span class="pt-1.5">per month</span>
+                        <span className="pt-1.5">per month</span>
                       </div>
-                      <div class="text-base">Essential Pooch+</div>
+                      <div className="text-base">Essential Pooch+</div>
                     </div>
-                    <div class="">
-                      <ul class="space-y-2 pt-8">
-                        <li class="flex items-center font-medium space-x-2 text-black">
+                    <div className="">
+                      <ul className="space-y-2 pt-8">
+                        <li className="flex items-center font-medium space-x-2 text-black">
                           <svg
-                            class="h-4 w-4"
+                            className="h-4 w-4"
                             viewBox="0 0 24 24"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
@@ -374,9 +374,9 @@ const GetPrice = () => {
                           </svg>
                           <span>Everything in Starter</span>
                         </li>
-                        <li class="flex items-center font-medium space-x-2 text-black">
+                        <li className="flex items-center font-medium space-x-2 text-black">
                           <svg
-                            class="h-4 w-4"
+                            className="h-4 w-4"
                             viewBox="0 0 24 24"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
@@ -391,9 +391,9 @@ const GetPrice = () => {
                           </svg>
                           <span>20,000 events / month</span>
                         </li>
-                        <li class="flex items-center font-medium space-x-2 text-black">
+                        <li className="flex items-center font-medium space-x-2 text-black">
                           <svg
-                            class="h-4 w-4"
+                            className="h-4 w-4"
                             viewBox="0 0 24 24"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
@@ -408,9 +408,9 @@ const GetPrice = () => {
                           </svg>
                           <span>20 Minute Late Night Potty Break</span>
                         </li>
-                        <li class="flex items-center font-medium space-x-2 text-black">
+                        <li className="flex items-center font-medium space-x-2 text-black">
                           <svg
-                            class="h-4 w-4"
+                            className="h-4 w-4"
                             viewBox="0 0 24 24"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
@@ -428,18 +428,18 @@ const GetPrice = () => {
                       </ul>
                     </div>
                   </div>
-                  <div class="pt-2">
+                  <div className="pt-2">
                     <a
-                      href="#"
+                      href="/payment"
                       type="button"
                       target="_blank"
-                      class="appearance-none inline-flex hover:shadow-2xl transition-all duration-300 hover:scale-105 items-center group space-x-2.5 bg-black text-white py-4 px-5 rounded-2xl cursor-pointer"
+                      className="appearance-none inline-flex hover:shadow-2xl transition-all duration-300 hover:scale-105 items-center group space-x-2.5 bg-black text-white py-4 px-5 rounded-2xl cursor-pointer"
                     >
-                      <span class="w-full font-semibold text-base">
+                      <span className="w-full font-semibold text-base">
                         Choose Startup
                       </span>
                       <svg
-                        class="inline-block h-6"
+                        className="inline-block h-6"
                         viewBox="0 0 24 25"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
@@ -455,11 +455,11 @@ const GetPrice = () => {
                     </a>
                   </div>
                 </div>
-                <div class="hidden">
-                  <ul class="space-y-2 pt-8">
-                    <li class="flex items-center font-medium space-x-2 text-black">
+                <div className="hidden">
+                  <ul className="space-y-2 pt-8">
+                    <li className="flex items-center font-medium space-x-2 text-black">
                       <svg
-                        class="h-4 w-4"
+                        className="h-4 w-4"
                         viewBox="0 0 24 24"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
@@ -474,9 +474,9 @@ const GetPrice = () => {
                       </svg>
                       <span>Everything in Starter</span>
                     </li>
-                    <li class="flex items-center font-medium space-x-2 text-black">
+                    <li className="flex items-center font-medium space-x-2 text-black">
                       <svg
-                        class="h-4 w-4"
+                        className="h-4 w-4"
                         viewBox="0 0 24 24"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
@@ -491,9 +491,9 @@ const GetPrice = () => {
                       </svg>
                       <span>20,000 events / month</span>
                     </li>
-                    <li class="flex items-center font-medium space-x-2 text-black">
+                    <li className="flex items-center font-medium space-x-2 text-black">
                       <svg
-                        class="h-4 w-4"
+                        className="h-4 w-4"
                         viewBox="0 0 24 24"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
@@ -513,29 +513,29 @@ const GetPrice = () => {
               </div>
             </div>
           </div>
-          <div class="rounded-[30px] md:rounded-[36px] bg-[#FAFAFA] overflow-hidden border-[1px] border-gray-200 p-8 relative">
-            <div class="h-full">
-              <div class="h-full z-10 relative">
-                <div class="flex flex-col flex-1 justify-between h-full space-y-5">
-                  <div class="flex justify-between flex-col">
-                    <div class="text-xl md:text-2xl font-bold text-gray-900 flex justify-between">
+          <div className="rounded-[30px] md:rounded-[36px] bg-[#FAFAFA] overflow-hidden border-[1px] border-gray-200 p-8 relative">
+            <div className="h-full">
+              <div className="h-full z-10 relative">
+                <div className="flex flex-col flex-1 justify-between h-full space-y-5">
+                  <div className="flex justify-between flex-col">
+                    <div className="text-xl md:text-2xl font-bold text-gray-900 flex justify-between">
                       <span>Professional (Most Popular)</span>
                     </div>
-                    <div class="pt-5 text-gray-500 font-medium text-base space-y-1">
-                      <div class="flex items-center align-bottom">
-                        <span class="pt-1.5">$</span>
-                        <div class="ml-1 mr-2 text-2xl md:text-3xl font-bold text-gray-900">
+                    <div className="pt-5 text-gray-500 font-medium text-base space-y-1">
+                      <div className="flex items-center align-bottom">
+                        <span className="pt-1.5">$</span>
+                        <div className="ml-1 mr-2 text-2xl md:text-3xl font-bold text-gray-900">
                           <span>49</span>
                         </div>
-                        <span class="pt-1.5">per month</span>
+                        <span className="pt-1.5">per month</span>
                       </div>
-                      <div class="text-base">Almost Overnight Pooch</div>
+                      <div className="text-base">Almost Overnight Pooch</div>
                     </div>
-                    <div class="">
-                      <ul class="space-y-2 pt-8">
-                        <li class="flex items-center font-medium space-x-2 text-black">
+                    <div className="">
+                      <ul className="space-y-2 pt-8">
+                        <li className="flex items-center font-medium space-x-2 text-black">
                           <svg
-                            class="h-4 w-4"
+                            className="h-4 w-4"
                             viewBox="0 0 24 24"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
@@ -550,9 +550,9 @@ const GetPrice = () => {
                           </svg>
                           <span>Everything in Startup</span>
                         </li>
-                        <li class="flex items-center font-medium space-x-2 text-black">
+                        <li className="flex items-center font-medium space-x-2 text-black">
                           <svg
-                            class="h-4 w-4"
+                            className="h-4 w-4"
                             viewBox="0 0 24 24"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
@@ -567,9 +567,9 @@ const GetPrice = () => {
                           </svg>
                           <span>80,000 events / mo</span>
                         </li>
-                        <li class="flex items-center font-medium space-x-2 text-black">
+                        <li className="flex items-center font-medium space-x-2 text-black">
                           <svg
-                            class="h-4 w-4"
+                            className="h-4 w-4"
                             viewBox="0 0 24 24"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
@@ -584,9 +584,9 @@ const GetPrice = () => {
                           </svg>
                           <span>30 minute midday walk </span>
                         </li>
-                        <li class="flex items-center font-medium space-x-2 text-black">
+                        <li className="flex items-center font-medium space-x-2 text-black">
                           <svg
-                            class="h-4 w-4"
+                            className="h-4 w-4"
                             viewBox="0 0 24 24"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
@@ -604,18 +604,18 @@ const GetPrice = () => {
                       </ul>
                     </div>
                   </div>
-                  <div class="pt-2">
+                  <div className="pt-2">
                     <a
-                      href="#"
+                      href="/payment"
                       type="button"
                       target="_blank"
-                      class="appearance-none inline-flex hover:shadow-2xl transition-all duration-300 hover:scale-105 items-center group space-x-2.5 bg-black text-white py-4 px-5 rounded-2xl cursor-pointer"
+                      className="appearance-none inline-flex hover:shadow-2xl transition-all duration-300 hover:scale-105 items-center group space-x-2.5 bg-black text-white py-4 px-5 rounded-2xl cursor-pointer"
                     >
-                      <span class="w-full font-semibold text-base">
+                      <span className="w-full font-semibold text-base">
                         Choose Pro
                       </span>
                       <svg
-                        class="inline-block h-6"
+                        className="inline-block h-6"
                         viewBox="0 0 24 25"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
@@ -631,11 +631,11 @@ const GetPrice = () => {
                     </a>
                   </div>
                 </div>
-                <div class="hidden">
-                  <ul class="space-y-2 pt-8">
-                    <li class="flex items-center font-medium space-x-2 text-black">
+                <div className="hidden">
+                  <ul className="space-y-2 pt-8">
+                    <li className="flex items-center font-medium space-x-2 text-black">
                       <svg
-                        class="h-4 w-4"
+                        className="h-4 w-4"
                         viewBox="0 0 24 24"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
@@ -650,9 +650,9 @@ const GetPrice = () => {
                       </svg>
                       <span>Everything in Startup</span>
                     </li>
-                    <li class="flex items-center font-medium space-x-2 text-black">
+                    <li className="flex items-center font-medium space-x-2 text-black">
                       <svg
-                        class="h-4 w-4"
+                        className="h-4 w-4"
                         viewBox="0 0 24 24"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
@@ -667,9 +667,9 @@ const GetPrice = () => {
                       </svg>
                       <span>80,000 events / mo</span>
                     </li>
-                    <li class="flex items-center font-medium space-x-2 text-black">
+                    <li className="flex items-center font-medium space-x-2 text-black">
                       <svg
-                        class="h-4 w-4"
+                        className="h-4 w-4"
                         viewBox="0 0 24 24"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
@@ -689,29 +689,29 @@ const GetPrice = () => {
               </div>
             </div>
           </div>
-          <div class="rounded-[30px] md:rounded-[36px] bg-[#FAFAFA] overflow-hidden border-[1px] border-gray-200 p-8 relative lg:col-span-2">
-            <div class="h-full">
-              <div class="h-full z-10 relative lg:flex lg:justify-between lg:w-full lg:pr-8 lg:items-center">
-                <div class="flex flex-col flex-1 justify-between h-full space-y-5">
-                  <div class="flex justify-between flex-col">
-                    <div class="text-xl md:text-2xl font-bold text-gray-900 flex justify-between">
+          <div className="rounded-[30px] md:rounded-[36px] bg-[#FAFAFA] overflow-hidden border-[1px] border-gray-200 p-8 relative lg:col-span-2">
+            <div className="h-full">
+              <div className="h-full z-10 relative lg:flex lg:justify-between lg:w-full lg:pr-8 lg:items-center">
+                <div className="flex flex-col flex-1 justify-between h-full space-y-5">
+                  <div className="flex justify-between flex-col">
+                    <div className="text-xl md:text-2xl font-bold text-gray-900 flex justify-between">
                       <span>Free</span>
                     </div>
-                    <div class="pt-5 text-gray-500 font-medium text-base space-y-1">
-                      <div class="flex items-center align-bottom">
-                        <span class="pt-1.5">$</span>
-                        <div class="ml-1 mr-2 text-2xl md:text-3xl font-bold text-gray-900">
+                    <div className="pt-5 text-gray-500 font-medium text-base space-y-1">
+                      <div className="flex items-center align-bottom">
+                        <span className="pt-1.5">$</span>
+                        <div className="ml-1 mr-2 text-2xl md:text-3xl font-bold text-gray-900">
                           <span>0</span>
                         </div>
-                        <span class="pt-1.5">per month</span>
+                        <span className="pt-1.5">per month</span>
                       </div>
-                      <div class="text-base">Basic Kitty</div>
+                      <div className="text-base">Basic Kitty</div>
                     </div>
-                    <div class="lg:hidden">
-                      <ul class="space-y-2 pt-8 lg:pt-0">
-                        <li class="flex items-center font-medium space-x-2 text-black">
+                    <div className="lg:hidden">
+                      <ul className="space-y-2 pt-8 lg:pt-0">
+                        <li className="flex items-center font-medium space-x-2 text-black">
                           <svg
-                            class="h-4 w-4"
+                            className="h-4 w-4"
                             viewBox="0 0 24 24"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
@@ -726,9 +726,9 @@ const GetPrice = () => {
                           </svg>
                           <span>No credit card required</span>
                         </li>
-                        <li class="flex items-center font-medium space-x-2 text-black">
+                        <li className="flex items-center font-medium space-x-2 text-black">
                           <svg
-                            class="h-4 w-4"
+                            className="h-4 w-4"
                             viewBox="0 0 24 24"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
@@ -743,9 +743,9 @@ const GetPrice = () => {
                           </svg>
                           <span>Free forever</span>
                         </li>
-                        <li class="flex items-center font-medium space-x-2 text-gray-600">
+                        <li className="flex items-center font-medium space-x-2 text-gray-600">
                           <svg
-                            class="h-4 w-4"
+                            className="h-4 w-4"
                             viewBox="0 0 24 24"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
@@ -760,9 +760,9 @@ const GetPrice = () => {
                           </svg>
                           <span>1 Quick Visit for shy cats</span>
                         </li>
-                        <li class="flex items-center font-medium space-x-2 text-gray-600">
+                        <li className="flex items-center font-medium space-x-2 text-gray-600">
                           <svg
-                            class="h-4 w-4"
+                            className="h-4 w-4"
                             viewBox="0 0 24 24"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
@@ -781,11 +781,11 @@ const GetPrice = () => {
                     </div>
                   </div>
                 </div>
-                <div class="hidden lg:block">
-                  <ul class="space-y-2 pt-8 lg:pt-0">
-                    <li class="flex items-center font-medium space-x-2 text-black">
+                <div className="hidden lg:block">
+                  <ul className="space-y-2 pt-8 lg:pt-0">
+                    <li className="flex items-center font-medium space-x-2 text-black">
                       <svg
-                        class="h-4 w-4"
+                        className="h-4 w-4"
                         viewBox="0 0 24 24"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
@@ -800,9 +800,9 @@ const GetPrice = () => {
                       </svg>
                       <span>No credit card required</span>
                     </li>
-                    <li class="flex items-center font-medium space-x-2 text-black">
+                    <li className="flex items-center font-medium space-x-2 text-black">
                       <svg
-                        class="h-4 w-4"
+                        className="h-4 w-4"
                         viewBox="0 0 24 24"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
@@ -817,9 +817,9 @@ const GetPrice = () => {
                       </svg>
                       <span>Free forever</span>
                     </li>
-                    <li class="flex items-center font-medium space-x-2 text-gray-600">
+                    <li className="flex items-center font-medium space-x-2 text-gray-600">
                       <svg
-                        class="h-4 w-4"
+                        className="h-4 w-4"
                         viewBox="0 0 24 24"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
@@ -834,9 +834,9 @@ const GetPrice = () => {
                       </svg>
                       <span>3 seats</span>
                     </li>
-                    <li class="flex items-center font-medium space-x-2 text-gray-600">
+                    <li className="flex items-center font-medium space-x-2 text-gray-600">
                       <svg
-                        class="h-4 w-4"
+                        className="h-4 w-4"
                         viewBox="0 0 24 24"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
@@ -856,28 +856,28 @@ const GetPrice = () => {
               </div>
             </div>
           </div>
-          <div class="rounded-[30px] md:rounded-[36px] bg-[#FAFAFA] overflow-hidden border-[1px] border-gray-200 p-8 relative sm:col-span-2 lg:col-span-1">
-            <div class="h-full">
-              <div class="flex flex-col justify-between h-full space-y-5">
-                <div class="flex justify-between flex-col">
-                  <div class="text-xl md:text-2xl font-bold text-gray-900 flex justify-between">
+          <div className="rounded-[30px] md:rounded-[36px] bg-[#FAFAFA] overflow-hidden border-[1px] border-gray-200 p-8 relative sm:col-span-2 lg:col-span-1">
+            <div className="h-full">
+              <div className="flex flex-col justify-between h-full space-y-5">
+                <div className="flex justify-between flex-col">
+                  <div className="text-xl md:text-2xl font-bold text-gray-900 flex justify-between">
                     <span>Essential Kitty</span>
                   </div>
-                  <div class="pt-5">
+                  <div className="pt-5">
                     1 Essential Visit to feed, refresh water, scoop and play.
                   </div>
                 </div>
-                <div class="pt-2">
+                <div className="pt-2">
                   <a
-                    href="#"
+                    href="/payment"
                     type="button"
-                    class="appearance-none inline-flex hover:shadow-2xl transition-all duration-300 hover:scale-105 items-center group space-x-2.5 bg-black text-white py-4 px-5 rounded-2xl cursor-pointer"
+                    className="appearance-none inline-flex hover:shadow-2xl transition-all duration-300 hover:scale-105 items-center group space-x-2.5 bg-black text-white py-4 px-5 rounded-2xl cursor-pointer"
                   >
-                    <span class="w-full font-semibold text-base">
+                    <span className="w-full font-semibold text-base">
                       Contact Sales
                     </span>
                     <svg
-                      class="inline-block h-6"
+                      className="inline-block h-6"
                       viewBox="0 0 24 25"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -897,6 +897,306 @@ const GetPrice = () => {
           </div>
         </div>
       </div>
+      <section className="bg-white dark:bg-gray-900">
+        <div className="max-w-screen-xl px-4 py-8 mx-auto lg:py-24 lg:px-6">
+          <div className="max-w-screen-md mx-auto mb-8 text-center lg:mb-12">
+            <h2 className="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">
+              Private Dog Training
+            </h2>
+            <p className="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">
+              Have a happier, healthier and more fulfilling relationship with
+              your dog! All Floofins and Co. private dog training sessions are
+              customized to meet your personal needs.
+            </p>
+            <p className="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">
+              Unlike in group training classes, you’ll get one on one attention
+              with our trainer and work on behaviors that you need help with in
+              your dog’s home space. Time will be spent learning new behaviors
+              and helping you better understand how to train your dog using
+              positive reinforcement methods.
+            </p>
+          </div>
+          <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
+            <div className="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+              <h3 className="mb-4 text-2xl font-semibold">Single Hour</h3>
+
+              <div className="flex items-baseline justify-center my-8">
+                <span className="mr-2 text-5xl font-extrabold">$150</span>
+                <span className="text-gray-500 dark:text-gray-400">/month</span>
+              </div>
+
+              <ul role="list" className="mb-8 space-y-4 text-left">
+                <li className="flex items-center space-x-3">
+                  <svg
+                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span>Individual configuration</span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <svg
+                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span>No setup, or hidden fees</span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <svg
+                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span>
+                    <span className="font-semibold">
+                      Book by the hour to get started.{" "}
+                    </span>
+                  </span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <svg
+                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span>
+                    <span className="font-semibold">
+                      Average sessions are 1 - 1.5 hours in length and are
+                      billed in 15 minute increments.
+                    </span>
+                  </span>
+                </li>
+              </ul>
+              <a
+                href="/payment"
+                className="text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-purple-900"
+              >
+                Get started
+              </a>
+            </div>
+
+            <div className="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+              <h3 className="mb-4 text-2xl font-semibold">3 Hour Package</h3>
+
+              <div className="flex items-baseline justify-center my-8">
+                <span className="mr-2 text-5xl font-extrabold">$666</span>
+                <span
+                  className="text-gray-500 dark:text-gray-400"
+                  dark:text-gray-400=""
+                >
+                  /month
+                </span>
+              </div>
+
+              <ul role="list" className="mb-8 space-y-4 text-left">
+                <li className="flex items-center space-x-3">
+                  <svg
+                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span>Individual configuration</span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <svg
+                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span>No setup</span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <svg
+                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span>
+                    <span className="font-semibold">hidden fees</span>
+                  </span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <svg
+                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span>
+                    <span className="font-semibold">training basics.</span>
+                  </span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <svg
+                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span>
+                    Free updates:{" "}
+                    <span className="font-semibold">15 Pack of Long Visit</span>
+                  </span>
+                </li>
+              </ul>
+              <a
+                href="/payment"
+                className="text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-purple-900"
+              >
+                Get started
+              </a>
+            </div>
+
+            <div className="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+              <h3 className="mb-4 text-2xl font-semibold">Long Visits</h3>
+
+              <div className="flex items-baseline justify-center my-8">
+                <span className="mr-2 text-5xl font-extrabold">$499</span>
+                <span className="text-gray-500 dark:text-gray-400">/month</span>
+              </div>
+
+              <ul role="list" className="mb-8 space-y-4 text-left">
+                <li className="flex items-center space-x-3">
+                  <svg
+                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span>Individual configuration</span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <svg
+                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span>No setup</span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <svg
+                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span>
+                    Team size:{" "}
+                    <span className="font-semibold">hidden fees</span>
+                  </span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <svg
+                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span>
+                    Premium support:{" "}
+                    <span className="font-semibold">
+                      15 Pack of Long Visit Dog Walking*
+                    </span>
+                  </span>
+                </li>
+              </ul>
+              <a
+                href="/payment"
+                className="text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-purple-900"
+              >
+                Get started
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };

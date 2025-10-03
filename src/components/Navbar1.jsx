@@ -46,6 +46,18 @@ const Navbar1 = () => {
                 </NavigationMenuLink>
                 <NavigationMenuLink>
                   <a
+                    href="/product"
+                    className="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none"
+                  >
+                    Products
+                  </a>
+                  <Link
+                    to="/product"
+                    className="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none"
+                  ></Link>
+                </NavigationMenuLink>
+                <NavigationMenuLink>
+                  <a
                     href="/service"
                     className="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none"
                   >
@@ -58,7 +70,7 @@ const Navbar1 = () => {
                 </NavigationMenuLink>
                 <NavigationMenuLink>
                   <a
-                    href="/service"
+                    href="/about"
                     className="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none"
                   >
                     About US
@@ -66,13 +78,11 @@ const Navbar1 = () => {
                   <Link
                     to="/about"
                     className="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none"
-                  >
-                    {" "}
-                  </Link>
+                  ></Link>
                 </NavigationMenuLink>
                 <NavigationMenuLink>
                   <a
-                    href="/service"
+                    href="/contact"
                     className="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none"
                   >
                     Contact
@@ -80,9 +90,7 @@ const Navbar1 = () => {
                   <Link
                     to="/contact"
                     className="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none"
-                  >
-                    {" "} 
-                  </Link>
+                  ></Link>
                 </NavigationMenuLink>
               </div>
             </NavigationMenuItem>

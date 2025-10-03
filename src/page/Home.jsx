@@ -24,7 +24,7 @@ const Home = () => {
             celebrating the love for dogs.
           </p>
           <a
-            href="#"
+            href="/product"
             className="bg-yellow-400 text-gray-900 hover:bg-yellow-300 py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
           >
             Get Started
@@ -72,7 +72,7 @@ const Home = () => {
 
             <div className="mt-8">
               <a
-                href="#"
+                href="/payment"
                 className="inline-block w-full text-center text-lg font-medium text-gray-100 bg-green-600 border-solid border-2 border-gray-600 py-4 px-10 hover:bg-green-800 hover:shadow-md md:w-48"
               >
                 Buy Now

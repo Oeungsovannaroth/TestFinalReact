@@ -13,7 +13,7 @@ const Service = () => {
             >
               Dog Walking
             </a>
-            <link to="/DogWalking"></link>
+            <Link to="/DogWalking"></Link>
           </li>
           <li className="flex mx-1">
             <a
@@ -21,7 +21,7 @@ const Service = () => {
               href="#"
             >
               Puppy Breaks
-               <link to="/Puppy-Breaks"></link>
+              <Link to="/Puppy-Breaks"></Link>
             </a>
           </li>
           <li className="flex mx-1">
@@ -139,13 +139,14 @@ const Service = () => {
 
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
-                  <a
-                    href="#"
+               
+                  
+                  <Link
+                    to="/GetPrice"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-600 md:py-4 md:text-lg md:px-10"
                   >
-                    <a href="/GetPrice">Getprice</a>
-                    {/* <link to="/GetPrice">Contact US For Get Pricing</link> */}
-                  </a>
+                    Contact US For Get Pricing
+                  </Link>
                 </div>
               </div>
             </div>
@@ -181,12 +182,12 @@ const Service = () => {
 
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
-                  <a
-                    href="/GetPrice"
+                  <Link
+                    to="/GetPrice"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-600 md:py-4 md:text-lg md:px-10"
                   >
                     Contact US For Get Pricing
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -222,12 +223,12 @@ const Service = () => {
 
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
-                  <a
-                    href="/GetPrice"
+                  <Link
+                    to="/GetPrice"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-600 md:py-4 md:text-lg md:px-10"
                   >
-                    Get Pricing
-                  </a>
+                    Contact US For Get Pricing
+                  </Link>
                 </div>
               </div>
             </div>
@@ -263,12 +264,12 @@ const Service = () => {
 
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
-                  <a
-                    href="/GetPrice"
+                  <Link
+                    to="/GetPrice"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-600 md:py-4 md:text-lg md:px-10"
                   >
-                    Get Pricing
-                  </a>
+                    Contact US For Get Pricing
+                  </Link>
                 </div>
               </div>
             </div>
@@ -307,12 +308,12 @@ const Service = () => {
 
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
-                  <a
-                    href="/GetPrice"
+                  <Link
+                    to="/GetPrice"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-600 md:py-4 md:text-lg md:px-10"
                   >
-                    Get Pricing
-                  </a>
+                    Contact US For Get Pricing
+                  </Link>
                 </div>
               </div>
             </div>
@@ -350,12 +351,12 @@ const Service = () => {
 
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
-                  <a
-                    href="/GetPrice"
+                  <Link
+                    to="/GetPrice"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-600 md:py-4 md:text-lg md:px-10"
                   >
-                    Get Pricing
-                  </a>
+                    Contact US For Get Pricing
+                  </Link>
                 </div>
               </div>
             </div>
@@ -394,12 +395,12 @@ const Service = () => {
 
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
-                  <a
-                    href="/GetPrice"
+                  <Link
+                    to="/GetPrice"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-600 md:py-4 md:text-lg md:px-10"
                   >
                     Get Pricing
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
