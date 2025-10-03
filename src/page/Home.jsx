@@ -60,15 +60,15 @@ const Home = () => {
           />
         </div>
 
-        <div className="max-w-lg bg-white md:max-w-2xl md:z-10 md:shadow-lg md:absolute md:top-0 md:mt-48 lg:w-3/5 lg:left-0 lg:mt-20 lg:ml-20 xl:mt-24 xl:ml-12 ">
-          <div className="flex flex-col p-12 md:px-16">
-            <h2 className="text-2xl font-medium uppercase text-green-800 lg:text-4xl">
+        <div className="max-w-lg bg-white md:max-w-2xl md:z-10 md:shadow-lg m:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto  md:text-xl lg:mx-0 md:absolute md:top-0 md:mt-48 lg:w-3/5 lg:left-0 lg:mt-20 lg:ml-20 xl:mt-24 xl:ml-12 ">
+          <div className="flex flex-col p-12 md:px-16 m:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+            <h2 className="text-2xl font-medium uppercase text-green-800 lg:text-4xl m:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
               Bully Max Dry Dog Food
             </h2>
-            <p className="mt-4">
+            <p className=" flex mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 ">
               Bully Max is a brand of high-performance dog food, especially
               known for its dry kibble (“30/20” formula) which has 30% protein
-              and 20% fat.It’s marketed as suitable for all breeds and all life
+              and 20% fat. It’s marketed as suitable for all breeds and all life
               stages (puppies, adults, pregnant/lactating) under its “All Life
               Stages” formula.
             </p>
