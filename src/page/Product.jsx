@@ -443,10 +443,10 @@ const Product = () => {
                 </div>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mt-4">
-               Puppy Toy Breed
+                Puppy Toy Breed
               </h3>
               <p className="text-gray-500 text-sm mt-2">
-               Pro Plan Puppy Toy Breed Chicken & Rice Formula Dry Dog Food
+                Pro Plan Puppy Toy Breed Chicken & Rice Formula Dry Dog Food
               </p>
               <div className="flex items-center justify-between mt-4">
                 <span className="text-gray-900 font-bold text-lg">$29.99</span>
@@ -470,10 +470,11 @@ const Product = () => {
                 </div>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mt-4">
-               Pupkin Bites 
+                Pupkin Bites
               </h3>
               <p className="text-gray-500 text-sm mt-2">
-               Purina Beggin’ Pupkin Bites With Bacon and Pumpkin Halloween Dog Treats
+                Purina Beggin’ Pupkin Bites With Bacon and Pumpkin Halloween Dog
+                Treats
               </p>
               <div className="flex items-center justify-between mt-4">
                 <span className="text-gray-900 font-bold text-lg">$29.99</span>
@@ -497,10 +498,10 @@ const Product = () => {
                 </div>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mt-4">
-               Beggin’ Dog 
+                Beggin’ Dog
               </h3>
               <p className="text-gray-500 text-sm mt-2">
-               Beggin’ Dog Treats Bacon & Peanut Butter Flavor Stix & Strips
+                Beggin’ Dog Treats Bacon & Peanut Butter Flavor Stix & Strips
               </p>
               <div className="flex items-center justify-between mt-4">
                 <span className="text-gray-900 font-bold text-lg">$29.99</span>
