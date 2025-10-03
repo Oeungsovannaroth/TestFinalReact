@@ -290,7 +290,7 @@ const Product = () => {
                 kittens and contains a balance of protein and fats for a strong
                 body and active playtime.
               </p>
-              <h2 className="font-semibold mb-5">$34.99</h2>
+              <h2 className="font-semibold mb-5">$15.99</h2>
               <button className="p-2 px-6 bg-purple-500 text-white rounded-md hover:bg-blue-600">
                 Add To Cart
               </button>
@@ -346,7 +346,7 @@ const Product = () => {
                 10 different treats—flavours may vary, but snack happiness is
                 guaranteed—excellent value
               </p>
-              <h2 className="font-semibold mb-5">$34.99</h2>
+              <h2 className="font-semibold mb-5">$26.99</h2>
               <button className="p-2 px-6 bg-pink-500 text-white rounded-md hover:bg-blue-600">
                 Add To Cart
               </button>
@@ -382,7 +382,7 @@ const Product = () => {
                 Entrée Classic Wet Dog Food.
               </p>
               <div className="flex items-center justify-between mt-4">
-                <span className="text-gray-900 font-bold text-lg">$29.99</span>
+                <span className="text-gray-900 font-bold text-lg">$32.76</span>
                 <button className="bg-gray-900 text-white py-2 px-4 rounded-full font-bold hover:bg-gray-800">
                   Add to Cart
                 </button>
@@ -409,7 +409,7 @@ const Product = () => {
                 Pro Plan Puppy Toy Breed Chicken & Rice Formula Dry Dog Food
               </p>
               <div className="flex items-center justify-between mt-4">
-                <span className="text-gray-900 font-bold text-lg">$29.99</span>
+                <span className="text-gray-900 font-bold text-lg">$39.99</span>
                 <button className="bg-gray-900 text-white py-2 px-4 rounded-full font-bold hover:bg-gray-800">
                   Add to Cart
                 </button>
@@ -464,7 +464,7 @@ const Product = () => {
                 Pro Plan Puppy Toy Breed Chicken & Rice Formula Dry Dog Food
               </p>
               <div className="flex items-center justify-between mt-4">
-                <span className="text-gray-900 font-bold text-lg">$29.99</span>
+                <span className="text-gray-900 font-bold text-lg">$21.99</span>
                 <button className="bg-gray-900 text-white py-2 px-4 rounded-full font-bold hover:bg-gray-800">
                   Add to Cart
                 </button>
@@ -492,7 +492,7 @@ const Product = () => {
                 Treats
               </p>
               <div className="flex items-center justify-between mt-4">
-                <span className="text-gray-900 font-bold text-lg">$29.99</span>
+                <span className="text-gray-900 font-bold text-lg">$13</span>
                 <button className="bg-gray-900 text-white py-2 px-4 rounded-full font-bold hover:bg-gray-800">
                   Add to Cart
                 </button>
@@ -519,7 +519,7 @@ const Product = () => {
                 Beggin’ Dog Treats Bacon & Peanut Butter Flavor Stix & Strips
               </p>
               <div className="flex items-center justify-between mt-4">
-                <span className="text-gray-900 font-bold text-lg">$29.99</span>
+                <span className="text-gray-900 font-bold text-lg">$16.99</span>
                 <button className="bg-gray-900 text-white py-2 px-4 rounded-full font-bold hover:bg-gray-800">
                   Add to Cart
                 </button>

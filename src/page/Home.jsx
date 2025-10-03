@@ -33,22 +33,6 @@ const Home = () => {
             Get Started
           </a>
         </div>
-
-        <div
-          id="gdpr"
-          className="bg-white fixed z-50 p-2 rounded-full drop-shadow-2xl bottom-12 left-1/2 -translate-x-1/2 max-sm:w-11/12"
-        >
-          <div className="flex items-center justify-between gap-6 text-sm">
-            <div className="content-left pl-4 text-black">
-              This website uses cookies to improve your web experience.
-            </div>
-            <div className="content-right text-end">
-              <button className="bg-black text-white px-4 py-2 cursor-pointer rounded-full">
-                Accept
-              </button>
-            </div>
-          </div>
-        </div>
       </div>
 
       <div className="relative flex flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-5xl lg:mt-12 xl:max-w-6xl">
@@ -59,7 +43,6 @@ const Home = () => {
             alt="Winding mountain road"
           />
         </div>
-
         <div className="max-w-lg bg-white md:max-w-2xl md:z-10 md:shadow-lg m:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto  md:text-xl lg:mx-0 md:absolute md:top-0 md:mt-48 lg:w-3/5 lg:left-0 lg:mt-20 lg:ml-20 xl:mt-24 xl:ml-12 ">
           <div className="flex flex-col p-12 md:px-16 m:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
             <h2 className="text-2xl font-medium uppercase text-green-800 lg:text-4xl m:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
