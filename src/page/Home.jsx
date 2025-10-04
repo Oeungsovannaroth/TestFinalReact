@@ -20,7 +20,7 @@ const Home = () => {
           <h1 className="text-3xl font-bold leading-tight mb-4 ml-20 ">
             Where every tail wags with joy
           </h1>
-          <p className="text-lg text-gray-300 mb-8 w-200">
+          <p className="text-lg text-gray-300 mb-8 max-w-2xl">
             is a warm and friendly greeting that creates an inviting atmosphere
             for visitors. It suggests a fun, safe, and joyful place dedicated to
             puppies — whether for adoption, care, training, or simply

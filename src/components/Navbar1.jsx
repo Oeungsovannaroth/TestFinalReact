@@ -1,4 +1,3 @@
-import React from "react";
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -6,120 +5,144 @@ import {
   NavigationMenuList,
 } from "@radix-ui/react-navigation-menu";
 import { Link, Links } from "react-router-dom";
-
+import { FaPhoneAlt } from "react-icons/fa";
+import { IoMdSunny } from "react-icons/io";
+import { MdDarkMode } from "react-icons/md";
+import { useContext } from "react";
+import Context from "@/context/Context";
 // import { useState } from "react";
 const Navbar1 = () => {
+  const { theme, toggleTheme } = useContext(Context);
+
   return (
     <div>
-      <nav className="flex flex-wrap items-center justify-between p-3 bg-[#e8e8e5]">
+      <nav className="flex flex-wrap items-center justify-between p-3 bg-[#e0e0d7]">
         <div className=" text-5xl">Puppy Land</div>
         <NavigationMenu>
           <NavigationMenuList>
             <NavigationMenuItem>
-              <div className="flex md:hidden">
-                <button id="hamburger">
-                  <img
-                    className="toggle block"
-                    src="https://img.icons8.com/fluent-systems-regular/2x/menu-squared-2.png"
-                    width="40"
-                    height="40"
-                  />
-                  <img
-                    className="toggle hidden"
-                    src="https://img.icons8.com/fluent-systems-regular/2x/close-window.png"
-                    width="40"
-                    height="40"
-                  />
-                </button>
-              </div>
-              <div className=" toggle hidden w-full md:w-auto md:flex text-right text-bold mt-5 md:mt-0 md:border-none text-2xl capacity-60">
+              <button
+                className="md:hidden text-2xl"
+                onClick={() => setIsOpen(!isOpen)}
+              >
+                ☰
+              </button>
+
+              <div className="  hidden w-full md:w-auto md:flex text-right text-bold mt-5 md:mt-0 md:border-none text-2xl capacity-60">
                 <NavigationMenuLink>
-                  <a
-                    href="/"
-                    className="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none"
-                  >
-                    Home
-                  </a>
                   <Link
                     to="/"
                     className="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none"
-                  ></Link>
+                  >
+                    Home
+                  </Link>
                 </NavigationMenuLink>
                 <NavigationMenuLink>
-                  <a
-                    href="/product"
-                    className="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none"
-                  >
-                    Products
-                  </a>
                   <Link
                     to="/product"
                     className="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none"
-                  ></Link>
+                  >
+                    Products
+                  </Link>
                 </NavigationMenuLink>
                 <NavigationMenuLink>
-                  <a
-                    href="/service"
-                    className="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none"
-                  >
-                    Service
-                  </a>
                   <Link
                     to="/service"
                     className="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none"
-                  ></Link>
+                  >
+                    Service
+                  </Link>
                 </NavigationMenuLink>
                 <NavigationMenuLink>
-                  <a
-                    href="/about"
-                    className="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none"
-                  >
-                    About US
-                  </a>
                   <Link
                     to="/about"
                     className="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none"
-                  ></Link>
+                  >
+                    About US
+                  </Link>
                 </NavigationMenuLink>
                 <NavigationMenuLink>
-                  <a
-                    href="/contact"
-                    className="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none"
-                  >
-                    Contact
-                  </a>
                   <Link
                     to="/contact"
                     className="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none"
-                  ></Link>
+                  >
+                    Contact
+                  </Link>
                 </NavigationMenuLink>
               </div>
+              {/* {isOpen && (
+                <div
+                  className="fixed top-50 left-0 h-full w-64 text-white p-6 transform ${
+            isOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 ease-in-out md:hidden z-50"
+                >
+                  <ul className="block flex-col space-y-4 top-0 left-0 w-full text-2xl font-bold text-blue-500 ">
+                 
+                    <Link
+                      to="/"
+                      className="block md:inline-block hover:text-pink-500 px-3 py-3 md:border-none"
+                    >
+                      Home
+                    </Link>
+                    <Link
+                      to="Product"
+                      className="block md:inline-block hover:text-pink-500 px-3 py-3 md:border-none"
+                    >
+                      Products
+                    </Link>
+                    <Link
+                      to="/about"
+                      className="block md:inline-block hover:text-pink-500 px-3 py-3 md:border-none"
+                    >
+                      About Us
+                    </Link>
+                    <Link
+                      to="/service"
+                      className="block md:inline-block hover:text-pink-500 px-3 py-3 md:border-none"
+                    >
+                      Service
+                    </Link>
+                    <Link
+                      to="/contact"
+                      className="block md:inline-block hover:text-pink-500 px-3 py-3 md:border-none"
+                    >
+                      Contact
+                    </Link>
+                  </ul>
+                </div>
+              )} */}
             </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
         <div className="toggle w-full text-end hidden md:flex md:w-auto px-2 py-2 md:rounded">
-          <a href="tel:+88581755532">
-            <div className="flex justify-end">
-              <div className="flex items-center h-10 w-30 rounded-md bg-[#c8a876] text-white font-medium p-2">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="currentColor"
-                  className="w-6 h-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
-                  />
-                </svg>
-                Call now
-              </div>
+          <div className="flex justify-end">
+            <div className="">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                className="w-6 h-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+                />
+              </svg>
             </div>
-          </a>
+          </div>
         </div>
+        <button onClick={toggleTheme} className="cursor-pointer text-2xl right-0">
+          {theme === "dark" ? <IoMdSunny /> : <MdDarkMode />}
+        </button>
+        <Link
+          to="tel:+88581755532"
+          stroke="currentColor"
+          className="bg-pink-600 text-white px-4 py-2 rounded-full hover:bg-pink-700 flex items-center gap-2 hover:scale-120 transform transition duration-300"
+        >
+          Call Now
+          <FaPhoneAlt />
+        </Link>
       </nav>
     </div>
   );

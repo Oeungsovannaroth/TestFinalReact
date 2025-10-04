@@ -4,7 +4,7 @@ import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
 const Footer = () => {
   return (
     <div>
-      <footer className="bg-purple-400 text-white py-5 mt-10">
+      <footer className="bg-zinc-500 text-white py-2 mt-10">
         <div className="container mx-auto px-6 md:px-12 lg:px-20">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
             {/* Brand Section */}

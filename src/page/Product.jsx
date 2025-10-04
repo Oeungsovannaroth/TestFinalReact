@@ -19,10 +19,10 @@ const Product = () => {
         <h1 className="text-3xl font-semibold ">— Puppy Couture —</h1>
         <h1 className="text-7xl font-bold text-pink-600">Shop Puppy</h1>
       </div>
-      <div className="bg-[#e8e8e5] mt-10 px-20 grid grid-cols-1">
+      <div className="bg-[#e8e8e5] mt-10 grid grid-cols-1 ">
         <section className="grid grid-cols-1 container mx-auto p-10 md:py-12 px-0 md:p-8 md:px-0  ">
           <section className=" p-5 md:p-0 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-10 items-start ">
-            <section className=" grid grid-cols-1 p-5 py-10 bg-purple-50 text-center transform duration-500 hover:-translate-y-2 cursor-pointer rounded-2xl">
+            <section className=" grid grid-cols-1  scroll-m-1 p-5 py-10 bg-purple-50 text-center transform duration-500 hover:-translate-y-2 cursor-pointer rounded-2xl ">
               <img
                 src="https://petsy.online/cdn/shop/products/2_e17adbe2-3e2e-498b-b178-6b45256cd078.png?v=1717585062"
                 className="rounded-2xl"
