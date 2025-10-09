@@ -27,93 +27,58 @@ const Navbar1 = () => {
               >
                 ☰
               </button>
-
-              <div className="  hidden w-full md:w-auto md:flex text-right text-bold mt-5 md:mt-0 md:border-none text-2xl capacity-60">
-                <NavigationMenuLink>
-                  <Link
-                    to="/"
-                    className="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none"
-                  >
-                    Home
-                  </Link>
-                </NavigationMenuLink>
-                <NavigationMenuLink>
-                  <Link
-                    to="/product"
-                    className="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none"
-                  >
-                    Products
-                  </Link>
-                </NavigationMenuLink>
-                <NavigationMenuLink>
-                  <Link
-                    to="/service"
-                    className="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none"
-                  >
-                    Service
-                  </Link>
-                </NavigationMenuLink>
-                <NavigationMenuLink>
-                  <Link
-                    to="/about"
-                    className="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none"
-                  >
-                    About US
-                  </Link>
-                </NavigationMenuLink>
-                <NavigationMenuLink>
-                  <Link
-                    to="/contact"
-                    className="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none"
-                  >
-                    Contact
-                  </Link>
-                </NavigationMenuLink>
-              </div>
-              {/* {isOpen && (
-                <div
-                  className="fixed top-50 left-0 h-full w-64 text-white p-6 transform ${
-            isOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 ease-in-out md:hidden z-50"
-                >
-                  <ul className="block flex-col space-y-4 top-0 left-0 w-full text-2xl font-bold text-blue-500 ">
-                 
+              <div
+                className={`${
+                  isOpen ? "block" : "hidden"
+                } w-full md:flex text-right mt-5 md:mt-0 md:text-2xl`}
+              >
+                <div className="  hidden w-full md:w-auto md:flex text-right text-bold mt-5 md:mt-0 md:border-none text-2xl capacity-60">
+                  <NavigationMenuLink>
                     <Link
                       to="/"
-                      className="block md:inline-block hover:text-pink-500 px-3 py-3 md:border-none"
+                      className="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none"
                     >
                       Home
                     </Link>
+                  </NavigationMenuLink>
+                  <NavigationMenuLink>
                     <Link
-                      to="Product"
-                      className="block md:inline-block hover:text-pink-500 px-3 py-3 md:border-none"
+                      to="/product"
+                      className="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none"
                     >
                       Products
                     </Link>
-                    <Link
-                      to="/about"
-                      className="block md:inline-block hover:text-pink-500 px-3 py-3 md:border-none"
-                    >
-                      About Us
-                    </Link>
+                  </NavigationMenuLink>
+                  <NavigationMenuLink>
                     <Link
                       to="/service"
-                      className="block md:inline-block hover:text-pink-500 px-3 py-3 md:border-none"
+                      className="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none"
                     >
                       Service
                     </Link>
+                  </NavigationMenuLink>
+                  <NavigationMenuLink>
+                    <Link
+                      to="/about"
+                      className="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none"
+                    >
+                      About US
+                    </Link>
+                  </NavigationMenuLink>
+                  <NavigationMenuLink>
                     <Link
                       to="/contact"
-                      className="block md:inline-block hover:text-pink-500 px-3 py-3 md:border-none"
+                      className="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none"
                     >
                       Contact
                     </Link>
-                  </ul>
+                  </NavigationMenuLink>
                 </div>
-              )} */}
+              </div>
             </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
-        <div className="toggle w-full text-end hidden md:flex md:w-auto px-2 py-2 md:rounded">
+        {/* <div className="toggle w-full text-end hidden md:flex md:w-auto px-2 py-2 md:rounded">
           <div className="flex justify-end">
             <div className="">
               <svg
@@ -131,7 +96,47 @@ const Navbar1 = () => {
               </svg>
             </div>
           </div>
+        </div> */}
+        <div className="flex items-center justify-between p-3 bg-[#e0e0d7]">
+          {/* Menu */}
+          <div
+            className={`${
+              isOpen ? "block" : "hidden"
+            }md:hidden w-full md:flex text-right mt-5 md:mt-0`}
+          >
+            <Link
+              to="/"
+              className="block md:inline-block px-3 py-3 hover:text-blue-500"
+            >
+              Home
+            </Link>
+            <Link
+              to="/product"
+              className="block md:inline-block px-3 py-3 hover:text-blue-500"
+            >
+              Products
+            </Link>
+            <Link
+              to="/service"
+              className="block md:inline-block px-3 py-3 hover:text-blue-500"
+            >
+              Service
+            </Link>
+            <Link
+              to="/about"
+              className="block md:inline-block px-3 py-3 hover:text-blue-500"
+            >
+              About US
+            </Link>
+            <Link
+              to="/contact"
+              className="block md:inline-block px-3 py-3 hover:text-blue-500"
+            >
+              Contact
+            </Link>
+          </div>
         </div>
+
         <div className="flex items-center lg:gap-4 ms:gap-2">
           <Link
             to="tel:+88581755532"

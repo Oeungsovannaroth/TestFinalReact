@@ -447,7 +447,7 @@ const Product = () => {
                   </button>
                 </div>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mt-4">KYEESE</h3>
+              <h3 className="text-xl font-bold text-gray-900 mt-4"></h3>
               <p className="text-gray-500 text-sm mt-2">
                 KYEESE Dog Hoodie Stretchy Dog Clothes for Small Dogs Dogs
                 Winter Coat for Cold Weather Cat Coat with Leash Hole Soft Pet
