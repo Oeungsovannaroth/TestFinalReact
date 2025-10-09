@@ -8,21 +8,21 @@ import { Link, Links } from "react-router-dom";
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoMdSunny } from "react-icons/io";
 import { MdDarkMode } from "react-icons/md";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import Context from "@/context/Context";
 // import { useState } from "react";
 const Navbar1 = () => {
   const { theme, toggleTheme } = useContext(Context);
-
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
       <nav className="flex flex-wrap items-center justify-between p-3 bg-[#e0e0d7]">
-        <div className=" text-5xl">Puppy Land</div>
+        <div className="lg:text-5xl md:text-4xl sm:text-2xl">Puppy Land</div>
         <NavigationMenu>
           <NavigationMenuList>
             <NavigationMenuItem>
               <button
-                className="md:hidden text-2xl"
+                className="md:hidden text-2xl sm:mr-10"
                 onClick={() => setIsOpen(!isOpen)}
               >
                 ☰
@@ -132,17 +132,22 @@ const Navbar1 = () => {
             </div>
           </div>
         </div>
-        <button onClick={toggleTheme} className="cursor-pointer text-2xl right-0">
-          {theme === "dark" ? <IoMdSunny /> : <MdDarkMode />}
-        </button>
-        <Link
-          to="tel:+88581755532"
-          stroke="currentColor"
-          className="bg-pink-600 text-white px-4 py-2 rounded-full hover:bg-pink-700 flex items-center gap-2 hover:scale-120 transform transition duration-300"
-        >
-          Call Now
-          <FaPhoneAlt />
-        </Link>
+        <div className="flex items-center lg:gap-4 ms:gap-2">
+          <Link
+            to="tel:+88581755532"
+            stroke="currentColor"
+            className="bg-pink-600 sm:px-8 flex sm:mr-40  text-xs sm:text-sm sm:py-2 text-white px-4 py-2 rounded-full hover:bg-pink-700 items-center gap-2 hover:scale-120 transform transition duration-300"
+          >
+            Call Now
+            <FaPhoneAlt />
+          </Link>
+          <button
+            onClick={toggleTheme}
+            className="cursor-pointer text-2xl right-0"
+          >
+            {theme === "dark" ? <IoMdSunny /> : <MdDarkMode />}
+          </button>
+        </div>
       </nav>
     </div>
   );

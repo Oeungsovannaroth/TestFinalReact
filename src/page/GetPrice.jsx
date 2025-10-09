@@ -17,8 +17,8 @@ const GetPrice = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {/* <!-- card1 --> */}
             <div className="w-full p-6 border border-gray-200 rounded-lg border-t-blue-500 border-t-4 shadow hover:shadow-xl transition">
-              <h4 className="mb-4 text-5xl">Quick Visit</h4>
-              <div>
+              <h4 className="mb-4 text-5xl text-pink-500">Quick Visit</h4>
+              <div className="text-pink-600">
                 <span className="text-3xl font-semibold">$</span>
                 <span className="text-5xl font-semibold">29</span>
                 <span className="text-xl text-gray-500">Month</span>
@@ -46,8 +46,8 @@ const GetPrice = () => {
 
             {/* <!-- card2 --> */}
             <div className="w-full p-6 border border-gray-200 rounded-lg border-t-green-500 border-t-4 shadow-lg scale-105 bg-white">
-              <h4 className="mb-4 text-3xl">Essential Visit</h4>
-              <div>
+              <h4 className="mb-4 text-3xl text-pink-600">Essential Visit</h4>
+              <div className="text-pink-600">
                 <span className="text-3xl font-semibold">$</span>
                 <span className="text-5xl font-semibold">49</span>
                 <span className="text-xl text-gray-500">Month</span>
@@ -73,8 +73,8 @@ const GetPrice = () => {
 
             {/* <!-- card3 --> */}
             <div className="w-full p-6 border border-gray-200 rounded-lg border-t-red-500 border-t-4 shadow hover:shadow-xl transition">
-              <h4 className="mb-4 text-3xl">Extended Visit</h4>
-              <div>
+              <h4 className="mb-4 text-3xl text-pink-600">Extended Visit</h4>
+              <div className="text-pink-600 ">
                 <span className="text-3xl font-semibold">$</span>
                 <span className="text-5xl font-semibold">69</span>
                 <span className="text-xl text-gray-500">Month</span>

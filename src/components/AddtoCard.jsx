@@ -1,48 +1,113 @@
 import React from "react";
 
-const AddtoCard = () => {
+const AddToCardList = () => {
   return (
-    <div className="bg-white rounded-xl p-6 shadow-lg w-80 relative">
-      <div className="absolute top-2 left-2 bg-black text-white text-xs px-2 py-1 rounded">
-        39% OFF
+    <div>
+      <div className="bg-gray-100  py-12">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col md:flex-row -mx-4">
+            <div className="md:flex-1 px-4">
+              <div className="h-[460px] rounded-lg bg-gray-300  mb-4">
+                <img
+                  className="w-full h-full object-cover"
+                  src="https://cdn.pixabay.com/photo/2020/05/22/17/53/mockup-5206355_960_720.jpg"
+                  alt="Product Image"
+                />
+              </div>
+              <div className="flex -mx-2 mb-4">
+                <div className="w-1/2 px-2">
+                  <button className="w-full bg-gray-900 dark:bg-gray-600 text-white py-2 px-4 rounded-full font-bold hover:bg-gray-800 dark:hover:bg-gray-700">
+                    Add to Cart
+                  </button>
+                </div>
+                <div className="w-1/2 px-2">
+                  <button className="w-full bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-white py-2 px-4 rounded-full font-bold hover:bg-gray-300 dark:hover:bg-gray-600">
+                    Add to Wishlist
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div className="md:flex-1 px-4">
+              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-2">
+                Product Name
+              </h2>
+              <p className="text-gray-600 dark:text-gray-300 text-sm mb-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed
+                ante justo. Integer euismod libero id mauris malesuada
+                tincidunt.
+              </p>
+              <div className="flex mb-4">
+                <div className="mr-4">
+                  <span className="font-bold text-gray-700 dark:text-gray-300">
+                    Price:
+                  </span>
+                  <span className="text-gray-600 dark:text-gray-300">
+                    $29.99
+                  </span>
+                </div>
+                <div>
+                  <span className="font-bold text-gray-700 dark:text-gray-300">
+                    Availability:
+                  </span>
+                  <span className="text-gray-600 dark:text-gray-300">
+                    In Stock
+                  </span>
+                </div>
+              </div>
+              <div className="mb-4">
+                <span className="font-bold text-gray-700 dark:text-gray-300">
+                  Select Color:
+                </span>
+                <div className="flex items-center mt-2">
+                  <button className="w-6 h-6 rounded-full bg-gray-800 dark:bg-gray-200 mr-2"></button>
+                  <button className="w-6 h-6 rounded-full bg-red-500 dark:bg-red-700 mr-2"></button>
+                  <button className="w-6 h-6 rounded-full bg-blue-500 dark:bg-blue-700 mr-2"></button>
+                  <button className="w-6 h-6 rounded-full bg-yellow-500 dark:bg-yellow-700 mr-2"></button>
+                </div>
+              </div>
+              <div className="mb-4">
+                <span className="font-bold text-gray-700 dark:text-gray-300">
+                  Select Size:
+                </span>
+                <div className="flex items-center mt-2">
+                  <button className="bg-gray-300 dark:bg-gray-700 text-gray-700 dark:text-white py-2 px-4 rounded-full font-bold mr-2 hover:bg-gray-400 dark:hover:bg-gray-600">
+                    S
+                  </button>
+                  <button className="bg-gray-300 dark:bg-gray-700 text-gray-700 dark:text-white py-2 px-4 rounded-full font-bold mr-2 hover:bg-gray-400 dark:hover:bg-gray-600">
+                    M
+                  </button>
+                  <button className="bg-gray-300 dark:bg-gray-700 text-gray-700 dark:text-white py-2 px-4 rounded-full font-bold mr-2 hover:bg-gray-400 dark:hover:bg-gray-600">
+                    L
+                  </button>
+                  <button className="bg-gray-300 dark:bg-gray-700 text-gray-700 dark:text-white py-2 px-4 rounded-full font-bold mr-2 hover:bg-gray-400 dark:hover:bg-gray-600">
+                    XL
+                  </button>
+                  <button className="bg-gray-300 dark:bg-gray-700 text-gray-700 dark:text-white py-2 px-4 rounded-full font-bold mr-2 hover:bg-gray-400 dark:hover:bg-gray-600">
+                    XXL
+                  </button>
+                </div>
+              </div>
+              <div>
+                <span className="font-bold text-gray-700 dark:text-gray-300">
+                  Product Description:
+                </span>
+                <p className="text-gray-600 dark:text-gray-300 text-sm mt-2">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  sed ante justo. Integer euismod libero id mauris malesuada
+                  tincidunt. Vivamus commodo nulla ut lorem rhoncus aliquet.
+                  Duis dapibus augue vel ipsum pretium, et venenatis sem
+                  blandit. Quisque ut erat vitae nisi ultrices placerat non eget
+                  velit. Integer ornare mi sed ipsum lacinia, non sagittis
+                  mauris blandit. Morbi fermentum libero vel nisl suscipit, nec
+                  tincidunt mi consectetur.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <img
-        src="https://cdn.discordapp.com/attachments/1151475185881131018/1156198472298895370/aeb89b8b-cdf2-4239-be2d-cd2de9a09105.png"
-        alt="Nike Shoe"
-        className="rounded-lg mx-auto w-48"
-      />
-      <h3 className="text-lg font-semibold mt-4">
-        Nike Air MX Super 2500 - Red
-      </h3>
-      <div className="flex items-center justify-center mt-2">
-        <span className="text-2xl font-bold text-blue-900">$449</span>
-        <span className="line-through text-gray-500 ml-2">$699</span>
-      </div>
-      <div className="flex items-center justify-center mt-2">
-        <span className="text-yellow-400">★★★★★</span>
-        <span className="ml-2 bg-yellow-100 text-yellow-800 px-2 rounded text-sm font-medium">
-          5.0
-        </span>
-      </div>
-      <button className="mt-4 w-full bg-blue-900 hover:bg-blue-800 text-white py-2 rounded-md flex items-center justify-center gap-2">
-        <svg
-          className="w-5 h-5"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2 9h14M9 21a1 1 0 100-2 1 1 0 000 2zm8 0a1 1 0 100-2 1 1 0 000 2z"
-          ></path>
-        </svg>
-        Add to cart
-      </button>
     </div>
   );
 };
 
-export default AddtoCard;
+export default AddToCardList;

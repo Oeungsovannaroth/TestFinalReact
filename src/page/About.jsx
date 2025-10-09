@@ -77,6 +77,7 @@ const About = () => {
                   <div>
                     <h3 className="text-xl font-semibold text-gray-700">
                       Our Story
+                      
                     </h3>
                     <p className="text-gray-500 text-sm">
                       <p>Founded out of love for dogs.</p>
@@ -103,11 +104,11 @@ const About = () => {
                     <h3 className="text-xl font-semibold text-gray-700">
                       Our Mission
                     </h3>
-                    <p className="text-gray-500 text-sm">
+                    <span className="text-gray-500 text-sm">
                       <p>Provide healthy, happy puppies.</p>
                       <p>Offer quality food, toys, and care products.</p>
                       <p>Educate new pet parents.</p>
-                    </p>
+                    </span>
                   </div>
                 </div>
               </div>

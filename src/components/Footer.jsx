@@ -4,7 +4,7 @@ import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
 const Footer = () => {
   return (
     <div>
-      <footer className="bg-zinc-500 text-white py-2 mt-10">
+      <footer className="bg-zinc-500 text-white py-2 mt-10  ">
         <div className="container mx-auto px-6 md:px-12 lg:px-20">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
             {/* Brand Section */}
@@ -20,19 +20,19 @@ const Footer = () => {
               <h3 className="text-2xl font-semibold mb-3">Quick Links</h3>
               <ul className="space-y-2 text-xl text-shadow-white ">
                 <li>
-                  <a href="/" className="hover:underline hover:font-bold ">
+                  <a href="/" className="hover:underline hover:font-bold hover:text-pink-300">
                     Home
                   </a>
                 </li>
                 <li>
-                  <a href="/about" className="hover:underline hover:font-bold">
+                  <a href="/about" className="hover:underline hover:font-bold hover:text-pink-300">
                     About
                   </a>
                 </li>
                 <li>
                   <a
                     href="/service"
-                    className="hover:underline hover:font-bold"
+                    className="hover:underline hover:font-bold hover:text-pink-300"
                   >
                     Services
                   </a>
@@ -40,7 +40,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/contact"
-                    className="hover:underline hover:font-bold"
+                    className="hover:underline hover:font-bold hover:text-pink-300"
                   >
                     Contact
                   </a>
@@ -48,7 +48,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/product"
-                    className="hover:underline hover:font-bold"
+                    className="hover:underline hover:font-bold hover:text-pink-300"
                   >
                     Product
                   </a>
@@ -56,12 +56,12 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h3 className="text-2xl font-semibold mb-3">Service</h3>
+              <h3 className="text-2xl font-semibold mb-3 ">Service</h3>
               <ul className="space-y-2 text-xl text-shadow-white ">
                 <li>
                   <a
                     href="/GetPrice"
-                    className="hover:underline hover:font-bold "
+                    className="hover:underline hover:font-bold hover:text-pink-300"
                   >
                     GetPrice
                   </a>
@@ -69,7 +69,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/Payment"
-                    className="hover:underline hover:font-bold"
+                    className="hover:underline hover:font-bold hover:text-pink-300"
                   >
                     Payment
                   </a>
@@ -77,7 +77,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/service"
-                    className="hover:underline hover:font-bold"
+                    className="hover:underline hover:font-bold hover:text-pink-300"
                   >
                     Training
                   </a>
@@ -85,7 +85,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/product"
-                    className="hover:underline hover:font-bold"
+                    className="hover:underline hover:font-bold hover:text-pink-300"
                   >
                     Shop
                   </a>
@@ -99,25 +99,25 @@ const Footer = () => {
               <div className="flex space-x-4">
                 <a
                   href="#"
-                  className="p-2 bg-white/20 rounded-full hover:bg-white/30 transition"
+                  className="p-2 bg-white/20 rounded-full hover:bg-white/30 transition hover:text-pink-300"
                 >
                   <Facebook size={20} />
                 </a>
                 <a
                   href="#"
-                  className="p-2 bg-white/20 rounded-full hover:bg-white/30 transition"
+                  className="p-2 bg-white/20 rounded-full hover:bg-white/30 transition hover:text-pink-300"
                 >
                   <Twitter size={20} />
                 </a>
                 <a
                   href="#"
-                  className="p-2 bg-white/20 rounded-full hover:bg-white/30 transition"
+                  className="p-2 bg-white/20 rounded-full hover:bg-white/30 transition hover:text-pink-300"
                 >
                   <Instagram size={20} />
                 </a>
                 <a
                   href="#"
-                  className="p-2 bg-white/20 rounded-full hover:bg-white/30 transition"
+                  className="p-2 bg-white/20 rounded-full hover:bg-white/30 transition hover:text-pink-300"
                 >
                   <Linkedin size={20} />
                 </a>
