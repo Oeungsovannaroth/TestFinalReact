@@ -17,7 +17,7 @@ const Navbar1 = () => {
   return (
     <div>
       <nav className="flex flex-wrap items-center justify-between p-3 bg-[#e0e0d7]">
-        <div className="lg:text-5xl md:text-4xl sm:text-2xl">Puppy Land</div>
+        <div className="lg:text-5xl md:text-4xl sm:text-3xl">Puppy Land</div>
         <NavigationMenu>
           <NavigationMenuList>
             <NavigationMenuItem>
@@ -73,6 +73,14 @@ const Navbar1 = () => {
                       Contact
                     </Link>
                   </NavigationMenuLink>
+                  <NavigationMenuLink>
+                    <Link
+                      to="/login"
+                      className="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none"
+                    >
+                      Login
+                    </Link>
+                  </NavigationMenuLink>
                 </div>
               </div>
             </NavigationMenuItem>
@@ -100,9 +108,9 @@ const Navbar1 = () => {
         <div className="flex items-center justify-between p-3 bg-[#e0e0d7]">
           {/* Menu */}
           <div
-            className={`${
+            className={`w-full text-right mt-5 ${
               isOpen ? "block" : "hidden"
-            }md:hidden w-full md:flex text-right mt-5 md:mt-0`}
+            } md:hidden`}
           >
             <Link
               to="/"
@@ -134,10 +142,16 @@ const Navbar1 = () => {
             >
               Contact
             </Link>
+            <Link
+              to="/login"
+              className="block md:inline-block px-3 py-3 hover:text-blue-500"
+            >
+              Login
+            </Link>
           </div>
         </div>
 
-        <div className="flex items-center lg:gap-4 ms:gap-2">
+        <div className="flex items-center lg:gap-4 ms:gap-8">
           <Link
             to="tel:+88581755532"
             stroke="currentColor"

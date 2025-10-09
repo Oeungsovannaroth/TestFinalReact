@@ -34,7 +34,9 @@ const Payment = () => {
               </div>
               <div className="flex gap-4">
                 <div className="w-1/2">
-                  <label className="block mb-1 text-sm text-gray-600">Expiry</label>
+                  <label className="block mb-1 text-sm text-gray-600">
+                    Expiry
+                  </label>
                   <input
                     type="text"
                     placeholder="MM/YY"
@@ -42,7 +44,9 @@ const Payment = () => {
                   />
                 </div>
                 <div className="w-1/2">
-                  <label className="block mb-1 text-sm text-gray-600">CVC</label>
+                  <label className="block mb-1 text-sm text-gray-600">
+                    CVC
+                  </label>
                   <input
                     type="text"
                     placeholder="123"
@@ -54,7 +58,7 @@ const Payment = () => {
                 type="submit"
                 className="w-full mt-4 bg-indigo-600 hover:bg-indigo-700 text-white text-lg py-3 rounded-lg transition"
               >
-                Pay 
+                Pay
               </button>
             </form>
           </div>
@@ -94,23 +98,6 @@ const Payment = () => {
                   alt="Apple"
                 />
                 <p className="text-gray-700 font-medium">Apple Pay</p>
-              </div>
-            </div>
-
-            {/* <!-- Order Summary --> */}
-            <div className="mt-10 border-t pt-6">
-              <h4 className="text-gray-700 font-semibold mb-2">Order Summary</h4>
-              <div className="flex justify-between text-gray-600">
-                <span>Subscription Plan</span>
-              
-              </div>
-              <div className="flex justify-between text-gray-600 mt-1">
-                <span>Tax</span>
-                <span>$0.00</span>
-              </div>
-              <div className="flex justify-between text-lg font-bold text-gray-800 mt-4">
-                <span>Total</span>
-               
               </div>
             </div>
           </div>

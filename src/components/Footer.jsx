@@ -1,5 +1,6 @@
 import React from "react";
 import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
+import { FaFacebook, FaInstagram, FaTelegram, FaTiktok } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -20,12 +21,18 @@ const Footer = () => {
               <h3 className="text-2xl font-semibold mb-3">Quick Links</h3>
               <ul className="space-y-2 text-xl text-shadow-white ">
                 <li>
-                  <a href="/" className="hover:underline hover:font-bold hover:text-pink-300">
+                  <a
+                    href="/"
+                    className="hover:underline hover:font-bold hover:text-pink-300"
+                  >
                     Home
                   </a>
                 </li>
                 <li>
-                  <a href="/about" className="hover:underline hover:font-bold hover:text-pink-300">
+                  <a
+                    href="/about"
+                    className="hover:underline hover:font-bold hover:text-pink-300"
+                  >
                     About
                   </a>
                 </li>
@@ -51,6 +58,22 @@ const Footer = () => {
                     className="hover:underline hover:font-bold hover:text-pink-300"
                   >
                     Product
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/login"
+                    className="hover:underline hover:font-bold hover:text-pink-300"
+                  >
+                    Login
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/signup"
+                    className="hover:underline hover:font-bold hover:text-pink-300"
+                  >
+                    Sign up
                   </a>
                 </li>
               </ul>
@@ -98,28 +121,28 @@ const Footer = () => {
               <h3 className="text-xl font-semibold mb-3">Follow Us</h3>
               <div className="flex space-x-4">
                 <a
-                  href="#"
+                  href="https://www.facebook.com/share/17fv3hp22A/?mibextid=wwXIfr"
                   className="p-2 bg-white/20 rounded-full hover:bg-white/30 transition hover:text-pink-300"
                 >
-                  <Facebook size={20} />
+                  <FaFacebook size={20} />
                 </a>
                 <a
-                  href="#"
+                  href="https://t.me/Oeungsovannaroth"
                   className="p-2 bg-white/20 rounded-full hover:bg-white/30 transition hover:text-pink-300"
                 >
-                  <Twitter size={20} />
+                  <FaTelegram size={20} />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.instagram.com/sele.leeee?igsh=MTBydWc2ZHVqMWx2bw==&utm_source=ig_contact_invite"
                   className="p-2 bg-white/20 rounded-full hover:bg-white/30 transition hover:text-pink-300"
                 >
-                  <Instagram size={20} />
+                  <FaInstagram size={20} />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.tiktok.com/@ohhhleleleleeee?_t=ZS-90PVBtrUIWv&_r=1"
                   className="p-2 bg-white/20 rounded-full hover:bg-white/30 transition hover:text-pink-300"
                 >
-                  <Linkedin size={20} />
+                  <FaTiktok size={20} />
                 </a>
               </div>
             </div>

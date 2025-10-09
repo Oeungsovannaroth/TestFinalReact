@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -57,12 +58,12 @@ const Home = () => {
             </p>
 
             <div className="mt-8">
-              <a
-                href="/payment"
+              <Link
+                to="/payment"
                 className="inline-block w-full text-center text-lg font-medium text-gray-100 bg-green-600 border-solid border-2 border-gray-600 py-4 px-10 hover:bg-green-800 hover:shadow-md md:w-48"
               >
                 Buy Now
-              </a>
+              </Link>
             </div>
           </div>
         </div>

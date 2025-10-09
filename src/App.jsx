@@ -8,7 +8,9 @@ import Navbar1 from "./components/Navbar1";
 import GetPrice from "./page/GetPrice";
 import Product from "./page/Product";
 import Payment from "./components/Payment";
-import AddtoCard from "./components/AddtoCard";
+import Login from "./page/Login";
+import { LogIn } from "lucide-react";
+import Signup from "./components/Signup";
 
 const App = () => {
   return (
@@ -25,6 +27,8 @@ const App = () => {
           <Route path="/GetPrice" element={<GetPrice />}></Route>
           <Route path="/product" element={<Product />}></Route>
           <Route path="/payment" element={<Payment />}></Route>
+          <Route path="/login" element={<Login />}></Route>
+          <Route path="/signup" element={<Signup />}></Route>
         </Routes>
       </main>
       <footer>

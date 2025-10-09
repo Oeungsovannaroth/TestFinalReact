@@ -105,7 +105,7 @@ const GetPrice = () => {
           <h1 className="text-6xl font-bold mb-10">
             Vacation Dog & Cat Sitting
           </h1>
-          <p className="text-2xl">
+          <p className="text-2xl font-bold">
             Vacation visits services can be mixed and matched to tailor pet care
             solutions for ALL of your pets. Visits include meals and treats
             served, fresh water, exercise, cleanups, medication (if needed) and
@@ -903,12 +903,12 @@ const GetPrice = () => {
             <h2 className="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">
               Private Dog Training
             </h2>
-            <p className="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">
+            <p className="mb-5 text-gray-500 sm:text-xl dark:text-gray-400 font-bold">
               Have a happier, healthier and more fulfilling relationship with
               your dog! All Floofins and Co. private dog training sessions are
               customized to meet your personal needs.
             </p>
-            <p className="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">
+            <p className="mb-5 text-gray-500 sm:text-xl dark:text-gray-400 font-bold">
               Unlike in group training classes, you’ll get one on one attention
               with our trainer and work on behaviors that you need help with in
               your dog’s home space. Time will be spent learning new behaviors

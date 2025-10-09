@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { ShoppingCart, X } from "lucide-react"; // npm install lucide-react
 import { Description } from "@radix-ui/react-dialog";
-
+import { Link } from "react-router-dom";
 const ShopPuppy = () => {
   // 🐶 Product list
   const products = [
@@ -50,7 +50,7 @@ const ShopPuppy = () => {
         "https://www.sheba.com/cdn-cgi/image/width=600,height=600,f=auto,quality=90/sites/g/files/fnmzdf1826/files/migrate-product-files/images/e0m7hvhpfsfckfhkzkfo.png",
     },
     {
-      id: 5,
+      id: 6,
       name: "Small & Mini Chicken Recipe ",
       Description: "kittens and contains a balance of protein ",
       price: 16.5,
@@ -164,10 +164,10 @@ const ShopPuppy = () => {
       {/* 🛒 Header */}
 
       <header className="flex flex-col sm:flex-row justify-between items-center mb-20">
-        <h1 className="text-4xl sm:text-7xl font-semibold mb-4 sm:mb-0">
+        <h1 className="md:text-4xl sm:text-2xl font-semibold mb-4 sm:mb-0">
           — Puppy Couture —
         </h1>
-        <h1 className="text-2xl sm:text-3xl font-bold text-purple-700">
+        <h1 className="md:text-3xl sm:text-2xl font-bold text-purple-700">
           🐾 Shop Puppy
         </h1>
 
@@ -177,7 +177,7 @@ const ShopPuppy = () => {
             onClick={() => setShowCart(!showCart)}
             className="relative cursor-pointer p-2 hover:scale-110 transition "
           >
-            <ShoppingCart size={40} className="text-pink-800  " />
+            <ShoppingCart size={40} className="text-pink-800  hover:text-blue-600" />
             {cart.length > 0 && (
               <span className="absolute -top-2 -right-2 bg-purple-600 text-white text-sm font-semibold rounded-full px-2 py-0.5">
                 {cart.length}
@@ -247,8 +247,11 @@ const ShopPuppy = () => {
                         .reduce((total, item) => total + item.price, 0)
                         .toFixed(2)}
                     </p>
-                    <button className="w-full bg-purple-500 text-white py-3 rounded-lg hover:bg-purple-600 transition font-medium shadow-md">
-                      Checkout
+                    {/* <button className="md:w-full max-w-full bg-purple-500 text-white py-3 rounded-lg hover:bg-purple-600 transition font-medium shadow-md sm:w-full ">
+                      <Link to="/payment">Pay now</Link>
+                    </button> */}
+                    <button className="w-full sm:w-full md:w-auto max-w-full bg-purple-500 text-white py-3 rounded-lg hover:bg-purple-600 transition font-medium shadow-md lg:w-full">
+                      <Link to="/payment">Pay now</Link>
                     </button>
                   </div>
                 )}
@@ -317,7 +320,7 @@ const ShopPuppy = () => {
                     ${product.price}
                   </span>
                   <button
-                    className="bg-gray-900 text-white py-2 px-4 rounded-full font-bold hover:bg-gray-800"
+                    className="bg-gray-900 text-white py-2 px-4 rounded-full font-bold hover:bg-gray-800 cursor-pointer"
                     onClick={() => {
                       addToCart(product);
                       alert(`${product.name} added to card!!`);
@@ -359,7 +362,7 @@ const ShopPuppy = () => {
                     ${product.price}
                   </span>
                   <button
-                    className="bg-gray-900 text-white py-2 px-4 rounded-full font-bold hover:bg-gray-800"
+                    className="bg-gray-900 text-white py-2 px-4 rounded-full font-bold hover:bg-gray-800 cursor-pointer"
                     onClick={() => {
                       addToCart(product);
                       alert(`${product.name} added to card!!`);
