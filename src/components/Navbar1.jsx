@@ -17,12 +17,12 @@ const Navbar1 = () => {
   return (
     <div>
       <nav className="flex flex-wrap items-center justify-between p-3 bg-[#e0e0d7]">
-        <div className="lg:text-5xl md:text-4xl sm:text-3xl">Puppy Land</div>
+        <div className="lg:text-5xl md:text-4xl sm:text-3xl text-gray-700">Puppy Land</div>
         <NavigationMenu>
           <NavigationMenuList>
             <NavigationMenuItem>
               <button
-                className="md:hidden text-2xl sm:mr-10"
+                className="md:hidden text-2xl sm:mr-10 text-gray-700"
                 onClick={() => setIsOpen(!isOpen)}
               >
                 ☰
@@ -112,42 +112,26 @@ const Navbar1 = () => {
               isOpen ? "block" : "hidden"
             } md:hidden`}
           >
-            <Link
-              to="/"
-              className="block md:inline-block px-3 py-3 hover:text-blue-500"
-            >
-              Home
-            </Link>
-            <Link
-              to="/product"
-              className="block md:inline-block px-3 py-3 hover:text-blue-500"
-            >
-              Products
-            </Link>
-            <Link
-              to="/service"
-              className="block md:inline-block px-3 py-3 hover:text-blue-500"
-            >
-              Service
-            </Link>
-            <Link
-              to="/about"
-              className="block md:inline-block px-3 py-3 hover:text-blue-500"
-            >
-              About US
-            </Link>
-            <Link
-              to="/contact"
-              className="block md:inline-block px-3 py-3 hover:text-blue-500"
-            >
-              Contact
-            </Link>
-            <Link
-              to="/login"
-              className="block md:inline-block px-3 py-3 hover:text-blue-500"
-            >
-              Login
-            </Link>
+            <div className="flex flex-col mt-4 md:hidden text-right text-gray-700">
+              <Link to="/" className="py-2 hover:text-blue-500">
+                Home
+              </Link>
+              <Link to="/product" className="py-2 hover:text-blue-500">
+                Products
+              </Link>
+              <Link to="/service" className="py-2 hover:text-blue-500">
+                Service
+              </Link>
+              <Link to="/about" className="py-2 hover:text-blue-500">
+                About Us
+              </Link>
+              <Link to="/contact" className="py-2 hover:text-blue-500">
+                Contact
+              </Link>
+              <Link to="/login" className="py-2 hover:text-blue-500">
+                Login
+              </Link>
+            </div>
           </div>
         </div>
 
