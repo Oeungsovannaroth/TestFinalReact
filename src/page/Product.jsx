@@ -164,7 +164,7 @@ const ShopPuppy = () => {
       {/* 🛒 Header */}
 
       <header className="flex flex-col sm:flex-row justify-between items-center mb-20">
-        <h1 className="md:text-4xl sm:text-2xl font-semibold mb-4 sm:mb-0">
+        <h1 className="md:text-4xl sm:text-2xl font-semibold mb-4 sm:mb-0 text-purple-600">
           — Puppy Couture —
         </h1>
         <h1 className="md:text-3xl sm:text-2xl font-bold text-purple-700">
