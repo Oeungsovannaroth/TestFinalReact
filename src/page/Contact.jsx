@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <div>
-      <section className="mb-32">
+      <section className="mb-32 mt-5">
         {/* Map */}
         <div
           id="map"

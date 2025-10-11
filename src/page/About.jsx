@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div>
       <h1>
-        <section className="relative bg-gradient-to-r from-purple-100 via-blue-100 to-green-100 py-16 px-8 overflow-hidden">
+        <section className=" mt-4 relative bg-gradient-to-r from-purple-100 via-blue-100 to-green-100 py-16 px-8 overflow-hidden">
           <div className="absolute inset-0 w-full h-full -z-10">
             <svg
               className="w-full h-full"

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { ShoppingCart, X } from "lucide-react"; // npm install lucide-react
 import { Description } from "@radix-ui/react-dialog";
 import { Link } from "react-router-dom";
@@ -158,6 +158,15 @@ const ShopPuppy = () => {
   const removeFromCart = (id) => {
     setCart((prev) => prev.filter((item) => item.id !== id));
   };
+  useEffect(() => {
+    const savedCart = JSON.parse(localStorage.getItem("cart")) || [];
+    setCart(savedCart);
+  }, []);
+
+  // ✅ Save cart to localStorage whenever it changes
+  useEffect(() => {
+    localStorage.setItem("cart", JSON.stringify(cart));
+  }, [cart]);
 
   return (
     <div className="min-h-screen bg-purple-50 p-10 relative">
@@ -172,12 +181,15 @@ const ShopPuppy = () => {
         </h1>
 
         <div className="relative">
-          {/* Cart icon */}
+          {/* 🛒 Cart Icon */}
           <button
             onClick={() => setShowCart(!showCart)}
-            className="relative cursor-pointer p-2 hover:scale-110 transition "
+            className="relative cursor-pointer p-2 hover:scale-110 transition"
           >
-            <ShoppingCart size={40} className="text-pink-800  hover:text-blue-600" />
+            <ShoppingCart
+              size={40}
+              className="text-pink-800 hover:text-blue-600"
+            />
             {cart.length > 0 && (
               <span className="absolute -top-2 -right-2 bg-purple-600 text-white text-sm font-semibold rounded-full px-2 py-0.5">
                 {cart.length}
@@ -185,11 +197,11 @@ const ShopPuppy = () => {
             )}
           </button>
 
-          {/* 🧾 Cart dropdown */}
+          {/* 🧾 Cart Modal */}
           {showCart && (
-            <div className="fixed inset-0 flex items-center justify-center  backdrop-blur-sm z-50">
+            <div className="fixed inset-0 flex items-center justify-center backdrop-blur-sm z-50">
               <div className="bg-blue-50 shadow-2xl rounded-2xl w-[420px] max-h-[80vh] p-6 relative flex flex-col">
-                {/* ❌ Close button */}
+                {/* ❌ Close */}
                 <button
                   onClick={() => setShowCart(false)}
                   className="absolute top-4 right-4 text-gray-600 hover:text-purple-600 transition"
@@ -202,7 +214,7 @@ const ShopPuppy = () => {
                   Your Cart 🛒
                 </h2>
 
-                {/* 🧺 Cart Items */}
+                {/* 🧺 Items */}
                 <div className="flex-1 overflow-y-auto space-y-3 pr-2 scrollbar-thin scrollbar-thumb-purple-300 scrollbar-track-transparent">
                   {cart.length === 0 ? (
                     <p className="text-gray-500 text-center py-10">
@@ -247,10 +259,7 @@ const ShopPuppy = () => {
                         .reduce((total, item) => total + item.price, 0)
                         .toFixed(2)}
                     </p>
-                    {/* <button className="md:w-full max-w-full bg-purple-500 text-white py-3 rounded-lg hover:bg-purple-600 transition font-medium shadow-md sm:w-full ">
-                      <Link to="/payment">Pay now</Link>
-                    </button> */}
-                    <button className="w-full sm:w-full md:w-auto max-w-full bg-purple-500 text-white py-3 rounded-lg hover:bg-purple-600 transition font-medium shadow-md lg:w-full">
+                    <button className="w-full bg-purple-500 text-white py-3 rounded-lg hover:bg-purple-600 transition font-medium shadow-md">
                       <Link to="/payment">Pay now</Link>
                     </button>
                   </div>

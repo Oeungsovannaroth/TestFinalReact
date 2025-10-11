@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div>
-      <div className="relative bg-gradient-to-r from-purple-600 to-blue-600 h-screen text-white overflow-hidden">
+      <div className="relative bg-gradient-to-r from-purple-600 to-blue-600 h-screen text-white overflow-hidden mt-3">
         <div className="absolute inset-0">
           <img
             src="https://cdn.pixabay.com/photo/2020/10/06/11/50/dog-5632005_1280.jpg"

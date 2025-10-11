@@ -51,7 +51,7 @@ const Login = () => {
                     >
                       {/* Replace with local image if needed */}
 
-                      <span className="ml-4 text-sm font-semibold text-gray-500">
+                      <span className="ml-4 text-sm font-semibold text-pink-500">
                         Login with Facebook
                       </span>
                     </a>
@@ -63,7 +63,7 @@ const Login = () => {
                     >
                       {/* Replace with local image if needed */}
 
-                      <span className="ml-4 text-sm font-semibold text-gray-500">
+                      <span className="ml-4 text-sm font-semibold text-pink-500">
                         Login with Apple
                       </span>
                     </a>
@@ -72,17 +72,17 @@ const Login = () => {
 
                 {/* Divider */}
                 <div className="flex mb-6 items-center">
-                  <div className="w-full h-px bg-gray-300"></div>
-                  <span className="mx-4 text-sm font-semibold text-gray-500">
+                  <div className="w-full h-px bg-pink-300"></div>
+                  <span className="mx-4 text-sm font-semibold text-pink-500">
                     Or
                   </span>
-                  <div className="w-full h-px bg-gray-300"></div>
+                  <div className="w-full h-px bg-pink-300"></div>
                 </div>
 
                 {/* Login Form */}
                 <form>
                   <div className="mb-6">
-                    <label className="block mb-1.5 text-sm text-gray-900 font-semibold">
+                    <label className="block mb-1.5 text-sm text-cyan-200 font-semibold">
                       Username
                     </label>
                     <input
@@ -92,7 +92,7 @@ const Login = () => {
                     />
                   </div>
                   <div className="mb-6">
-                    <label className="block mb-1.5 text-sm text-gray-900 font-semibold">
+                    <label className="block mb-1.5 text-sm text-cyan-200 font-semibold">
                       Email
                     </label>
                     <input
@@ -104,7 +104,7 @@ const Login = () => {
 
                   <div className="mb-7">
                     <div className="flex mb-1.5 items-center justify-between">
-                      <label className="text-sm text-gray-900 font-semibold">
+                      <label className="text-sm text-cyan-400 font-semibold">
                         Password
                       </label>
                       <a
@@ -130,7 +130,7 @@ const Login = () => {
                   <div className="flex mb-6 items-center">
                     <input type="checkbox" id="rememberMe" />
                     <label
-                      className="ml-2 text-xs text-gray-800"
+                      className="ml-2 text-xs text-pink-200"
                       htmlFor="rememberMe"
                     >
                       Remember for 30 days
@@ -147,10 +147,10 @@ const Login = () => {
                       </span>
                   </button>
 
-                  <span className="text-xs font-semibold text-gray-900">
-                    Don’t have an account?
+                  <span className="sm:text-xs font-semibold text-pink-500 lg:text-2xl ">
+                    Don't have an account?
                     <Link
-                      className="ml-1 text-orange-900 hover:text-orange-700"
+                      className="ml-1 text-pink-200 hover:text-orange-700"
                       to="/signup"
                     >
                       Sign up

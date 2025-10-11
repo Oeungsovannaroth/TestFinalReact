@@ -16,13 +16,12 @@ const Navbar1 = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
-      <nav className="flex flex-wrap items-center justify-between p-3 bg-[#e0e0d7]">
-        <div className="lg:text-5xl md:text-4xl sm:text-3xl text-gray-700">Puppy Land</div>
+      <nav className="w-full flex justify-between items-center bg-gradient-to-b from-[#cfb5ad] to-[#e94b9a] text-gray-800 px-5 py-3 rounded-full shadow-[0_4px_12px_rgba(0,0,0,0.3)] backdrop-blur-md max-w-7xl mx-auto mt-5 border border-[#e2d4cf]">
         <NavigationMenu>
           <NavigationMenuList>
             <NavigationMenuItem>
               <button
-                className="md:hidden text-2xl sm:mr-10 text-gray-700"
+                className="md:hidden text-2xl sm:mr-5 sm:mt-10 text-gray-700"
                 onClick={() => setIsOpen(!isOpen)}
               >
                 ☰
@@ -32,7 +31,7 @@ const Navbar1 = () => {
                   isOpen ? "block" : "hidden"
                 } w-full md:flex text-right mt-5 md:mt-0 md:text-2xl`}
               >
-                <div className="  hidden w-full md:w-auto md:flex text-right text-bold mt-5 md:mt-0 md:border-none text-2xl capacity-60">
+                <div className="hidden w-full md:w-auto md:flex text-right text-bold mt-5 md:mt-0 md:border-none text-2xl capacity-60">
                   <NavigationMenuLink>
                     <Link
                       to="/"
@@ -85,7 +84,10 @@ const Navbar1 = () => {
               </div>
             </NavigationMenuItem>
           </NavigationMenuList>
-        </NavigationMenu>
+        </NavigationMenu>{" "}
+        <div className="lg:text-4xl md:text-2xl sm:text-2xl font-bold text-[#3d2b2b]">
+          Puppy Land
+        </div>
         {/* <div className="toggle w-full text-end hidden md:flex md:w-auto px-2 py-2 md:rounded">
           <div className="flex justify-end">
             <div className="">
@@ -105,14 +107,13 @@ const Navbar1 = () => {
             </div>
           </div>
         </div> */}
-        <div className="flex items-center justify-between p-3 bg-[#e0e0d7]">
-          {/* Menu */}
+        <div className="flex items-center justify-between p-3 ">
           <div
             className={`w-full text-right mt-5 ${
               isOpen ? "block" : "hidden"
             } md:hidden`}
           >
-            <div className="flex flex-col mt-4 md:hidden text-right text-gray-700">
+            <div className="flex flex-col  mt-4 text-right text-gray-700 ">
               <Link to="/" className="py-2 hover:text-blue-500">
                 Home
               </Link>
@@ -134,8 +135,7 @@ const Navbar1 = () => {
             </div>
           </div>
         </div>
-
-        <div className="flex items-center lg:gap-4 ms:gap-8">
+        <div className="flex items-center ms:gap-8">
           <Link
             to="tel:+88581755532"
             stroke="currentColor"
@@ -146,7 +146,7 @@ const Navbar1 = () => {
           </Link>
           <button
             onClick={toggleTheme}
-            className="cursor-pointer text-2xl right-0"
+            className="cursor-pointer text-3xl right-0"
           >
             {theme === "dark" ? <IoMdSunny /> : <MdDarkMode />}
           </button>
